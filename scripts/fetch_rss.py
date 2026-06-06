@@ -35,7 +35,6 @@ except ImportError:
     GoogleTranslator = None
 
 
-# ===================== Google News 查询 =====================
 GOOGLE_NEWS_QUERIES = [
     "Hong Kong logistics customs",
     "港口 物流 海关",
@@ -44,7 +43,6 @@ GOOGLE_NEWS_QUERIES = [
 ]
 
 
-# ===================== HTML 源配置 =====================
 SOURCE_CONFIG = [
     {
         "id": "hk-customs-press",
@@ -85,7 +83,6 @@ SOURCE_CONFIG = [
 ]
 
 
-# ===================== 关键词 =====================
 KEYWORDS = [
     "shipping", "logistics", "port", "customs", "tariff", "trade",
     "maritime", "freight", "container", "cargo", "supply chain",
