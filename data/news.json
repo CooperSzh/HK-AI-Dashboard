@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-06T17:11:47.937656+00:00",
+  "generated_at": "2026-06-06T17:28:06.217481+00:00",
   "stats": {
-    "total": 16,
+    "total": 15,
     "sources_count": 4
   },
   "items": [
@@ -74,23 +74,6 @@
       ]
     },
     {
-      "id": "50b13303f0db",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "海關總署推智慧口岸建設港珠澳大橋物流快進快出- 大灣區 - 大公文匯網",
-      "summary": "海關總署推智慧口建設港珠澳大橋物流快進快出- 大灣區 大公岸文匯網",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iOVBPeS1FcFMzeVZFeG5yNFhlNTdrZFdYT29POC1GOFFJeTY4d1F1TWJwWnpSdUJPOERNc0M2bUhQS1pEQS00SVpoelB4V0FNMmNwTXZWNHh5U05Rc3l5WWQ3U2FKN0xNc2FDYmZBbU0?oc=5",
-      "time": "2026-06-06",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
       "id": "f034ad6ad0fd",
       "category": "global",
       "priority": "low",
@@ -125,13 +108,13 @@
       ]
     },
     {
-      "id": "6677b930e4aa",
+      "id": "84690ae5a448",
       "category": "global",
       "priority": "low",
       "source": "Google News",
-      "title": "海關：面向國際貿易變遷香港須跨越科技創新提升競爭力 - 星島頭條",
-      "summary": "海關：面向國際貿易變化香港須跨越科技創新提升競爭 星島頭條",
-      "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQbTF3eEZPcTZNOUJUSDVUb1BxYWY1S0haX25LYnhDeGdrR1M2Q3FZWmtycEpZV0lKcmFEa1JEMDJRZlRZdENqQWlzTFNJSURXRVBIMklxaTRBcGpIOWQxQUxoRDVWZVNxSHVsdExONHAtNlJWLS0zejkwbTByQ0R5N1Iwc3libHRIRVpWcEo3aE5YcGtpZG03Q0NNeDZkTlJNVlRDQTJuV2VnUzNyaFZCSVdSNEVzQWs1SV9VbGZXNkdPQTV0MEN6VVoyaGV3cEQ2YlhaZEVRdVhidWdnMklGb29reXFFWXBIRVNHb1YxaEZacDdDRFVmWEw1elhxOFU2b0VvTkppNEtkOUo5WVFFX2Y4ZE9oazZJYnF3MGZHdS1xVTlNZXFzb3BhamFnRzZrRUtpVXZiVXY0Vko1UVlsaXNLaS1EV05Sajk4TzlpaVoyWE5MeG5LMlhEd0JuSVY0Ny10VWk2TWpfd2RTT01pT3Y3UzVpbWpkZGxGWmNvU0xRamhSRnFHaDBWTXJGQkRiLWtrQ0FnUQ?oc=5",
+      "title": "海關總署推「新18條」深港合作再升級 - 中國 - 大公文匯網",
+      "summary": "海關總署推「新18條」深港合作再升級 - 中國大公文匯網",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oNlUtMEc5b25BZWNPQzJGRGxfN2VrS2ZLQlNEQmhBcmRPamtycVRaUXp5Z2tZTm9PVkszRzd1dW5pRG8wc3ZCUGEyT2Z0OHFSYWtTUFZjc3RuZk8xY0hPdE9RTHM0VjhaRVhtRXR3bk9uZzVG?oc=5",
       "time": "2026-06-06",
       "region": "global",
       "icon": "🌐",
@@ -159,13 +142,13 @@
       ]
     },
     {
-      "id": "909a70383a8b",
+      "id": "1189621d0ce3",
       "category": "global",
       "priority": "low",
       "source": "Google News",
-      "title": "美國國際貿易法庭裁定川普新的全球關稅非法 - TVB",
-      "summary": "美國國際貿易法庭裁定川普新的全球關稅非法 &nbsp; &nbsp;TVB",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZzNpUzFpUHREbVM4dTFyNUVjZDJYQUV6a1IwOE8zZ3hBZWhtbVJweHVicXdFVUxTQ0NSdXdUaVZVbDFMb3c1WHpuQlBLWVZHTWlDdmpGVDVua1ctZlBhelVSVFhOcXJFZVhKSng1eFdBbHRCZ1MwcDQwSVBsM1BDaG9HVzg2TjdWMFpVVkE0bWtTZVliZFE?oc=5",
+      "title": "「深港汽車快通計畫」試行計畫啟動 海關稱將提升物流效率 - 香港電台新聞網",
+      "summary": "「深港汽車快通計畫」試行計畫啟動 海關稱將提升物流效率 &nbsp;香港電台新聞網",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IU0ZkckJEQ0pzUFd1ajl4Z0x4TGJGUDBPeFZwZGE5Znp4OUJYaklRb213MG9iVXdCazZHTlhYVUdENlkzSzJGR0N4cUVsMjNwdDRVOVg0T2hkM3F0VnVfUDJkZFg5Mko1Qjdvd1oxVQ?oc=5",
       "time": "2026-06-06",
       "region": "global",
       "icon": "🌐",
@@ -176,13 +159,13 @@
       ]
     },
     {
-      "id": "13c10341fed3",
+      "id": "909a70383a8b",
       "category": "global",
       "priority": "low",
       "source": "Google News",
-      "title": "供過於求，全球航運進入結構性拐點 - 西紅柿新聞",
-      "summary": "供過於求，全球航運進入結構性拐點&nbsp;&nbsp;西紅柿新聞",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4d05lSzZsdUlaNmJvb1F0dVhUb25oemZiU3Z3czBBa0FxMEtVc21lRGNVaFpONS1XcFMwLTZNbURvMlVBeEdEMGJkcDdSMkZUN0E?oc=5",
+      "title": "美國國際貿易法庭裁定川普新的全球關稅非法 - TVB",
+      "summary": "美國國際貿易法庭裁定川普新的全球關稅非法 &nbsp; &nbsp;TVB",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZzNpUzFpUHREbVM4dTFyNUVjZDJYQUV6a1IwOE8zZ3hBZWhtbVJweHVicXdFVUxTQ0NSdXdUaVZVbDFMb3c1WHpuQlBLWVZHTWlDdmpGVDVua1ctZlBhelVSVFhOcXJFZVhKSng1eFdBbHRCZ1MwcDQwSVBsM1BDaG9HVzg2TjdWMFpVVkE0bWtTZVliZFE?oc=5",
       "time": "2026-06-06",
       "region": "global",
       "icon": "🌐",
@@ -227,6 +210,23 @@
       ]
     },
     {
+      "id": "d7a3038a2bfc",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "商務部、海關總署：暫停稀土等出口管制公告的實施 - 香港01",
+      "summary": "商務部、海關總署：暫停稀土等稅務管制公告的實施 &nbsp;&nbsp;香港01",
+      "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPamx5SUFJRU51T1dwNk9qS201NWVNTHp0SEdhOUUtVFdIWkJrYzNOMHBQZHhBd0otenpGQnk1Ulh0OGt4cXNWVkpWVzFfc3c4eVBBUWFXSTZUb2tmNEJ4QmQ0YmlLNHZDb1U1Q3BaRGI3ZzBNMEdUbW1aTE5hbFFFRHhVdloxUVg3YWtFWmRCaEdIN1ZCOFEtb3FWaFQtVFpldUhVdDdIYkpJcl9vZm9oMkIyR1ZNUUZCbkU5ck5xYUpHbm9fZGtRQzhqNnVOcEV6WUtITll2WjNfdnpmZ1k1ZHdYcFpKNi1aa2RhTDF0b0d0cTdTcDVLTDVTaW1XYzktUXFsQ19PWldtc25aR0Q4SkJ5STNhYTkzaXM5VXVkRllwRUhMZ192RkxBZktLQzczeVBtS2d0YUJDODA3amxqZDEtbm5HaGlHQ0p3bnN6NjhuczV1cEIxSGVSeFVST0VzejZqOWNrRXp0bVE4Y3M2R1ZsN3dCN1N5ZGxaNEFjVXpZWkI0T1VXR0RLOTc?oc=5",
+      "time": "2026-06-06",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
       "id": "9012581c77be",
       "category": "global",
       "priority": "low",
@@ -251,23 +251,6 @@
       "title": "中國商務部、海關總署連發4公告涉及超硬材料、稀土、鋰電池等出口管制 - RFI",
       "summary": "中國商務部、海關總署連發4公告涉及超硬材料、稀土、鋰電池等出口管制 RFI",
       "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxNZWRycmQ5bmw2R2VkZWVkNWFVRU95TXpPRFlBTjhNVG92dGktbXNyMDF0eGlPRWx4dTJiRzZwZG5uTDlxU0pxWVdQaGNQX0RidldWdXZYWXNIV3NXYmNTdlI0djY5bWdEUWRDUG5XWEhieHNzTGJxcVBURmVVdGdIdkxpQWhwczdYQ0JqeDJnZnlCbFpSWWZRR2E3c0ZYSVo1Y0hJUExHMi1rcFRhMUt3c1RtZ2RxeFNPblVKZU9nV2h3cnVSTXpNNzRkaE0tbzhPZm9wMEFpcU5fT3N3VTJHQjFwZXFZQldfVTRRY0NHODc0NFIzUzk4ZjhVNzhBZWFHYkRqMU40ekhXUC1QUUVXR1JaZDZtMlhMR2hldjBIYmxxR1dUSFN0ZXY3ZG1JVEZ1cjJLN3oyeV9KLUduZG82TlRiZmN4c2gwNDd1dmwxOXNKUE1SRml6bjVjLTJPWGRfY1lZbUtXTnlzRmFRRC1HLVFFa1llMnFORkRmU0w0bTFjRXhiS3ZWYUlCUkkxVTVndzNCUUxvX0JwbmdVNmJjOVJFLWlLMkJKZjZxblpkQ2VFbVZNOFE?oc=5",
-      "time": "2026-06-06",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "d7a3038a2bfc",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "商務部、海關總署：暫停稀土等出口管制公告的實施 - 香港01",
-      "summary": "商務部、海關總署：暫停稀土等稅務管制公告的實施 &nbsp;&nbsp;香港01",
-      "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPamx5SUFJRU51T1dwNk9qS201NWVNTHp0SEdhOUUtVFdIWkJrYzNOMHBQZHhBd0otenpGQnk1Ulh0OGt4cXNWVkpWVzFfc3c4eVBBUWFXSTZUb2tmNEJ4QmQ0YmlLNHZDb1U1Q3BaRGI3ZzBNMEdUbW1aTE5hbFFFRHhVdloxUVg3YWtFWmRCaEdIN1ZCOFEtb3FWaFQtVFpldUhVdDdIYkpJcl9vZm9oMkIyR1ZNUUZCbkU5ck5xYUpHbm9fZGtRQzhqNnVOcEV6WUtITll2WjNfdnpmZ1k1ZHdYcFpKNi1aa2RhTDF0b0d0cTdTcDVLTDVTaW1XYzktUXFsQ19PWldtc25aR0Q4SkJ5STNhYTkzaXM5VXVkRllwRUhMZ192RkxBZktLQzczeVBtS2d0YUJDODA3amxqZDEtbm5HaGlHQ0p3bnN6NjhuczV1cEIxSGVSeFVST0VzejZqOWNrRXp0bVE4Y3M2R1ZsN3dCN1N5ZGxaNEFjVXpZWkI0T1VXR0RLOTc?oc=5",
       "time": "2026-06-06",
       "region": "global",
       "icon": "🌐",
