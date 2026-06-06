@@ -1,151 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-<meta charset="utf-8">
-<title>AI Logistics Dashboard</title>
-
-<style>
-body { font-family: 'DM Sans', -apple-system, sans-serif; background: var(--bg); }
-
-.meta-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
-.date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-mid); text-transform: uppercase; letter-spacing: 0.5px; }
-.live-indicator { display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--accent); font-weight: 600; }
-.pulse-dot { width: 8px; height: 8px; background: var(--accent); border-radius: 50%; animation: pulse 2s ease-in-out infinite; }
-
-@keyframes pulse {
-0%, 100% { opacity: 1; transform: scale(1); }
-50% { opacity: 0.4; transform: scale(0.85); }
-}
-
-.stats-deck { max-width: 1400px; margin: 0 auto; padding: 32px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
-
-.stat-card { background: var(--surface); border: 1px solid var(--border); padding: 24px; position: relative; }
-.stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent); }
-.stat-card.critical::before { background: var(--critical); }
-.stat-card.info::before { background: var(--info); }
-.stat-card.success::before { background: var(--success); }
-
-.stat-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-mid); margin-bottom: 8px; font-weight: 600; }
-.stat-value { font-family: 'Crimson Pro', serif; font-size: 52px; font-weight: 700; line-height: 1; margin-bottom: 8px; }
-.stat-value.critical { color: var(--critical); }
-.stat-value.info { color: var(--info); }
-.stat-delta { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-light); }
-
-.container { max-width: 1400px; margin: 0 auto; padding: 0 40px 80px; }
-.grid { display: grid; grid-template-columns: 1fr 380px; gap: 40px; align-items: start; }
-
-.section-header { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--text); }
-.section-title { font-family: 'Crimson Pro', serif; font-size: 32px; font-weight: 700; margin-bottom: 4px; }
-.section-subtitle { font-size: 14px; color: var(--text-mid); }
-
-.filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
-.filter-btn { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 8px 16px; background: var(--surface); border: 1px solid var(--border); color: var(--text-mid); cursor: pointer; }
-
-.filter-btn.active { background: var(--text); color: var(--surface); }
-
-.freshness-note { font-size: 12px; color: var(--text-mid); margin: -16px 0 20px; }
-
-.article { background: var(--surface); border: 1px solid var(--border); margin-bottom: 24px; padding: 32px; cursor: pointer; }
-.article.high { border-left: 4px solid var(--critical); }
-
-.article-title { font-family: 'Crimson Pro', serif; font-size: 24px; font-weight: 700; }
-.article-summary { font-size: 15px; color: var(--text-mid); }
-
-.widget { background: var(--surface); border: 1px solid var(--border); padding: 28px; margin-bottom: 32px; }
-
-.alert { padding: 16px; border-left: 3px solid; margin-bottom: 12px; background: var(--bg); }
-.alert.critical { border-color: var(--critical); }
-.alert.warning { border-color: var(--warning); }
-
-.region-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Logistics Dashboard</title>
+  <style>
+    :root{--bg:#f6f5f1;--card:#fff;--text:#1c1f24;--muted:#65717e;--line:#dde1e6;--accent:#147d75;--warn:#b87318;--high:#bf2f2f}
+    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+    header,main,.stats{max-width:1180px;margin:auto;padding:24px}
+    header{padding-top:38px;border-bottom:1px solid var(--line)}
+    .eyebrow{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.08em;text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(32px,5vw,54px);line-height:1.05}
+    .sub{margin:0;color:var(--muted);line-height:1.6}
+    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+    .stat,.article,.empty{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}
+    .label{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
+    .value{font-size:34px;font-weight:900;margin-top:6px}
+    .bar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+    .filters{display:flex;gap:8px;flex-wrap:wrap}
+    button{border:1px solid var(--line);background:var(--card);border-radius:6px;padding:9px 13px;font-weight:800;color:var(--muted);cursor:pointer}
+    button.active{background:var(--text);border-color:var(--text);color:#fff}
+    .updated{font-size:13px;color:var(--muted)}
+    .list{display:grid;gap:14px}
+    .article{display:block;text-decoration:none;color:inherit;border-left:4px solid var(--accent)}
+    .article.high{border-left-color:var(--high)} .article.medium{border-left-color:var(--warn)}
+    .meta{font-size:12px;font-weight:800;color:var(--muted);margin-bottom:8px}
+    h2{font-size:20px;line-height:1.35;margin:0 0 8px}
+    p{margin:0;color:var(--muted);line-height:1.6}
+    @media(max-width:640px){header,main,.stats{padding-left:16px;padding-right:16px}.filters,button{width:100%}.bar{align-items:stretch}}
+  </style>
 </head>
-
 <body>
+  <header>
+    <div class="eyebrow">Live Customs & Logistics Intelligence</div>
+    <h1>AI Logistics Dashboard</h1>
+    <p class="sub">追蹤香港、中國及全球物流、海關、航運與貿易政策動態。</p>
+  </header>
 
-<div id="root"></div>
+  <section class="stats">
+    <div class="stat"><div class="label">總動態</div><div class="value" id="total">--</div></div>
+    <div class="stat"><div class="label">近30天</div><div class="value" id="fresh">--</div></div>
+    <div class="stat"><div class="label">資料源</div><div class="value" id="sources">--</div></div>
+  </section>
 
-<script type="text/babel">
-const { useState, useEffect } = React;
-
-const FRESH_DAYS = 30;
-
-// 时间解析（新增）
-const parseAgeDays = (timeLabel = '') => {
-  const t = String(timeLabel).trim();
-  if (!t) return Infinity;
-  if (t.includes('刚刚') || t.includes('近期')) return 0;
-
-  const h = t.match(/(\d+)\s*(小时|h)/i);
-  if (h) return Number(h[1]) / 24;
-
-  const d = t.match(/(\d+)\s*天/);
-  if (d) return Number(d[1]);
-
-  return Infinity;
-};
-
-function App() {
-
-  const [filter, setFilter] = useState('all');
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch('data/news.json')
-      .then(r => r.json())
-      .then(setData);
-  }, []);
-
-  if (!data) return <div>Loading...</div>;
-
-  const freshItems = data.items.filter(i => parseAgeDays(i.time) <= FRESH_DAYS);
-  const staleCount = data.items.length - freshItems.length;
-
-  const filtered =
-    (filter === 'all' ? freshItems : freshItems.filter(i => i.category === filter))
-    .sort((a,b) => parseAgeDays(a.time) - parseAgeDays(b.time));
-
-  const alerts = freshItems.filter(i => i.priority !== 'low').slice(0,4);
-
-  return (
-    <div>
-
-      <div className="stats-deck">
-        <div className="stat-card">
-          <div className="stat-label">近30天动态</div>
-          <div className="stat-value">{freshItems.length}</div>
-        </div>
+  <main>
+    <div class="bar">
+      <div class="filters" id="filters">
+        <button class="active" data-filter="all">全部</button>
+        <button data-filter="global">全球</button>
+        <button data-filter="hongkong">香港</button>
+        <button data-filter="china">中國</button>
       </div>
-
-      <div className="container">
-
-        <div className="filters">
-          <button onClick={()=>setFilter('all')}>全部</button>
-          <button onClick={()=>setFilter('port')}>港口</button>
-          <button onClick={()=>setFilter('china')}>中国</button>
-        </div>
-
-        <div className="freshness-note">
-          已过滤 {staleCount} 条过期数据（>{FRESH_DAYS}天）
-        </div>
-
-        {filtered.map(i =>
-          <div key={i.id} className="article">
-            <div>{i.source}</div>
-            <h3 className="article-title">{i.title}</h3>
-            <p className="article-summary">{i.summary}</p>
-          </div>
-        )}
-
-      </div>
-
+      <div class="updated" id="updated">正在載入...</div>
     </div>
-  );
-}
+    <div id="content" class="empty">正在讀取 data/news.json...</div>
+  </main>
 
-ReactDOM.render(<App />, document.getElementById('root'));
-</script>
+  <script>
+    const FRESH_DAYS = 30;
+    let data = null;
+    let filter = "all";
 
+    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[c]));
+
+    function ageDays(v) {
+      if (!v) return Infinity;
+      const t = String(v).trim();
+      if (t.includes("剛剛") || t.includes("刚刚") || t.includes("近期")) return 0;
+      const h = t.match(/(\d+)\s*(小時|小时|h)/i);
+      if (h) return Number(h[1]) / 24;
+      const d = t.match(/(\d+)\s*天/);
+      if (d) return Number(d[1]);
+      const date = new Date(t);
+      return Number.isNaN(date.getTime()) ? Infinity : Math.max(0, (Date.now() - date.getTime()) / 86400000);
+    }
+
+    function fmt(v) {
+      const d = new Date(v);
+      if (Number.isNaN(d.getTime())) return v || "unknown";
+      return d.toLocaleString("zh-HK", { year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" });
+    }
+
+    function render() {
+      const items = Array.isArray(data?.items) ? data.items : [];
+      const fresh = items.filter(i => ageDays(i.time) <= FRESH_DAYS);
+      const visible = (filter === "all" ? fresh : fresh.filter(i => i.category === filter))
+        .sort((a, b) => ageDays(a.time) - ageDays(b.time));
+
+      document.getElementById("total").textContent = items.length;
+      document.getElementById("fresh").textContent = fresh.length;
+      document.getElementById("sources").textContent = data?.stats?.sources_count ?? "--";
+      document.getElementById("updated").textContent = "更新時間：" + fmt(data?.generated_at);
+
+      const content = document.getElementById("content");
+      if (!visible.length) {
+        content.className = "empty";
+        content.textContent = "暫時沒有符合條件的近30天動態。";
+        return;
+      }
+
+      content.className = "list";
+      content.innerHTML = visible.map(i => `
+        <a class="article ${esc(i.priority || "low")}" href="${esc(i.link || "#")}" target="_blank" rel="noopener noreferrer">
+          <div class="meta">${esc(i.icon || "")} ${esc(i.source || "Unknown")} · ${esc(i.time || "")} · ${esc(i.priority || "low")}</div>
+          <h2>${esc(i.title || "Untitled")}</h2>
+          <p>${esc(i.summary || "")}</p>
+        </a>
+      `).join("");
+    }
+
+    document.getElementById("filters").addEventListener("click", e => {
+      const btn = e.target.closest("button[data-filter]");
+      if (!btn) return;
+      filter = btn.dataset.filter;
+      document.querySelectorAll("#filters button").forEach(b => b.classList.toggle("active", b === btn));
+      render();
+    });
+
+    fetch("data/news.json")
+      .then(r => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(json => {
+        data = json;
+        render();
+      })
+      .catch(err => {
+        document.getElementById("updated").textContent = "資料載入失敗";
+        document.getElementById("content").textContent = "無法讀取 data/news.json：" + err.message;
+      });
+  </script>
 </body>
 </html>
