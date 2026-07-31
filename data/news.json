@@ -1,188 +1,460 @@
 {
-  "generated_at": "2026-07-31T09:41:20.842126+00:00",
+  "generated_at": "2026-07-31T10:14:35.952846+00:00",
   "stats": {
-    "total": 18,
+    "total": 141,
     "sources_count": 4
   },
   "items": [
     {
-      "id": "174a877bed45",
+      "id": "a8d927249982",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "美國以「強制勞動」為由徵新關稅，影響中國、台灣等60個貿易夥伴BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yN0tuSFNEdXZ0S0VENGpzNUhyOFIycjhRNVRSbWUwa2Vkem56QXNOcFFWYlBvZlN2YTVKZnloZThmR1dISFpSbDktZ1dWZ1I0T1RfSDM4Q29Db3ZGNWU3enVaNGJad9IBa0FVX3lxTE1lMWV0WUxHb0l4bVhVcEZTaTJUUjkydzJ1R0N0RkZlS2d5TWl2bTNrejh4MGdlZndUTVRsMkFuQnNLVHZIWFlmOWxnSDNldUsxcmFINUxGZFFBaHFWQnNpMDRhZ2szaHFRVjVr?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a1139223cbd5",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "美新關稅生效 兩美企訴反制 巴西貿易遭受巨大衝擊 抵制美方強烈抗議 香港文告",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90RHlPWmsxeWFoczA0aDF5ZERKSzJ1R1dLb0JuZWtnQ3FUNURSN3B5YllLb0NaN2NWQnBWSUVzekhIN1RweTZuYnlzZjBWVVNLVUY3LUpMaEhwaFJ4R3laZHRTSXpBNW05R1hyeGZXRVhwZWdOS0p6d29JYXE?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "b131747841ba",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "美國宣布對巴西加徵25%關稅 - 香港商報",
+      "summary": "美國宣布對巴西加徵25%關稅 香港商報",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43b2NPVndMWTRDTUZuWElqTHhjamxONE1TbUhPc05RWGN3OU81OVp1U2ZGeEluUUVvR09tRE9xZEpaUlZJV2lyeW5SYVJOWnMwd25OajNORmM1Q054VkN3U2FROHhVMUd0cElJTjBaNnozRDg4dUE?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "cb46390d031f",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "美國產能過剩調查讓關稅問題重新啟動高價貨品可能會佔用空運搶運 ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlY3BEOHdCZ1dXRjczUDFFYWNMdE9UZk01eXU3cS1OMFpKcjRfVUZ0S0dXWUhyeVFqSnNjOHFvNkw4NWhCZUF5QWZZRVl1d245dWfSAVBBVV95cUxNQWFLb1Jhd1gwRFdjUENObG5aNl9KaTRaWGpSdDBaVFByQkFfTzZzRWkzQ0xqcEZuU1ZOTGNVNmRmbmNndzFjNlo0ZjNRdVA0Mg?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "f3389b706c1e",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "中美展開新一輪經貿終止 中國官媒提美政府徵關稅遭裁不合法貿易政策或須重置 - Now 新聞",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pMlVULWNPNWNLNVFhNnlsdHNKczY3SG1LaFM4YlBINThKN0VBNWc5WkJNc3FucUN0aDVTRll4Slh3bTBnRE10V1RYNmF3SVpPOFBtYlNEZHpUV3pVSnBBSDdGVHVtbWdKQ1hmYg?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "04e3d1ae0c10",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "金融觀察/美關稅戰製造新的貿易失衡\\鄧宇 - 大公文匯網",
+      "summary": "金融觀察/美關稅戰製造新的貿易失衡\\鄧宇 大公文匯網",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nYk9qSFdhUmdzRk5aMHJUcTFjVHM3aVdZZ1IyMnBNSk83d21iZTRVV1B2X1QzejVXLWZnaTItLTlla1NUbEVhSEFUZmxiU0pQSllSWVNmME5HYVkyZlg3THRDYlZERXhYR2ZqcjA0cnRPclp6U1E?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "c8034d48a5c8",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "美國對60國加徵新關稅：貿易戰升級還是策略重組？ - heatalk.com",
+      "summary": "美國對60國加徵新關稅：貿易戰升級還是策略重組？ heatalk.com",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5hNnAzUXhrTldCckdNSm5NRmpaSlQ0dzdoaTVWa0ppS0dEUlM2a09sQUNza0dsUEpqOGdVZ2NfN19QanNJWWlYcE5RcV9FWVJW?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "1399197c5a49",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "川普關稅政策1週年 史丹佛誇簽20項新貿易協定 美媒：波動50次 - 香港01",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNd2RKZTFYQjlvZW1JdGhRS2ttVURQZnFpS3hDVjZRdW1JUHh5QWNPSmtBVTJ6dUJNTjgySDJieVZyWnBNaTRvMGVoM0xkVGNjRUV5YnBLZ0hwRUNrQ19nX3dTX01oS2gyeExNZEpRaGhvWnJhaEFUcHhJOVUxVUJKcFd1Sjk0WGtmbUlDOHVWRTB2SDFLQmRZZFZ3ekZITzZMUVZweUllR093UDBadGhDVW5QclAxSDJEc2JvXzk3Tnc0ekFieWowbmRzTmRDWG8wNDF1ZDcxWnNWRHYwT0dGSndwd0RJRVhROTJpUGlzdmR4ZEFld2k5ZXUtVGliNG1YTkJmX0dlZ3JBeVBJNU9xTlJDcWpCbTd6Szd6d0pDLXVIc3NYR0VuVVdQSkFUTzhRR2NJa2Rsa1RIR09BYzZ1RlItWlU4ekhFbllVblJKeVh0V0NzZDhMMWhyNHA1MXJrNUlXSm5fYVRpRFFtOVlCNnRVVXVpNjhRLWhwUnhFV0h3UjlmdTc1a01EVEZkZ2Q2U0g4Smg0bzBPeGpYSUFZcw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "8a8253e552d5",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "Shein 報告 2026 年第一季虧損，歸咎於美國貿易政策與關稅 全球貿易雜誌",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQclNOZlFxNlNOMVA1ZlJIblBCNGhrSFpKLWs4QXVnOTlNQ1JwR0NpODRwdmZKYV9vU2J0WkNLLWNaQjJHdmlmYXlpR3NPYmlUTlcyV01tVC1zWG5fdUtOOGQ3azhsX0hmZERRb0c1NmUwdTZrYmJ6N0JnbGNDSUZwRWNBem1fdWYtRFJZM3ItdC03YkYzOWMwSng0ZjI?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "028ff2e07767",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "2025 年關稅：對美國經濟的短期影響 - 布魯金斯學會",
+      "summary": "2025 年關稅：對美國經濟的短期影響 布魯金斯學會",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdHc1dXlvVVBqR0d0bm50aUlubWVGZ180R1p0ZWx1dGIxUzZkbFptSEwwMmkzSXZnTEs1VmNqbHY1UUVhb1FWZU91SmxyNkR0X3YwLW15WXVoREVBZnhvTjRmeWQtNmxTWkhIZC1Wc09qUGFzSnNWSkNRRFpSMURPaWJHcDBpQXJrc2x5RHU1aTE?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "fdb4b0c615c8",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "川普關稅政策下誰會獲勝？ - DW.com",
+      "summary": "川普關稅政策下誰會獲勝？德國之聲",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM2dOSWczS2JGS1B4RUVPZVItaExXbjlDOXJ5ZkFhYm5xLVh2Q3ZjcGIwdjIwajBCdzRxYjQyM1B3WDQ5QkRpWFpWTDd2VkhLSGprWDNqakYyMTcwV0Y4MXV4cGlDZ0lWNE4wWmZKTmFvOTFSUXEtc3NDQ0RpcmUxMUhBZzRxNkczYmVwLW5sRW5SVnFabE02U0JJb0swZHFFTHpyZ01B?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "f00d17fcb295",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "貿易、關稅與國債：川普保護主義外交關係委員會的隱性成本",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMTZGZTh6RlBQbW8tR1Q3d2VBTXNhTFE1YkNDS2FiNzEzamhHZmhxcXJZTkNsU0FEQ1J6QVRjbzZpcVFRNFl6MV9SejdQSWxBYk5qUUpzckRBeThPZVhZSVJOcXVmcWV0Y3NBcnhNMUt3VldJZUJEUW9rVWRqclRSdGx1eWdEX2lFS2NYZ1JvWkdhbk9V?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "79af0af4d38d",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "美國新關稅起價為 10%，川普正努力將其提高至 15%",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTTJZOTEtcEhEOFF4UDl2anpMdXBrWVJlTTlyWWRrNTBrRXBTR3lzd3haNnVrWHJYWW8wSVltODFUMm9VYUQxYnZKcmQ2eHJDYWhuMXBtYzM3ZDB6N21BcTNhWk80dmphd2N5RkRnYUx2c1dUb3lCUWIxUDdLbGlyRE9DQjZqRE1fV0J6aWEwaGphTHl0dVFwMEh5VFpRdmN0cWVkYm13MNIBrAFBVV95cUxONkZxejRfVzRtXzJHMkUtNUhlanVFZDFaUElJbzBWTG1PMmxCRGtqaktjUDNZRWo4T0w1V3oweGZjT2RCejBzNzhpNlAtY2FjaXFRUFhzR1VMSVBHbzlRd2FBVTdrbkVHQUtaclM2QWNoZ2FSNkNETWhmTGFldDBtUXVWcnF2SUpRMFJJMG52NTJPNExvZVV6bFZwckdZRWQ0c1RjYTlocUZqNmk5?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "3c0b4a486fba",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "隨著關稅停滯，川普的對華政策轉變 - 路透中文網",
+      "summary": "隨著關稅停滯，川普的對華政策轉變 路透",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTXlVcm1fYUVaWTdvQmRYby1jQi1iRmFTZmtSdTJKYklrRXBBTmo2WlBIQzRwQ3Qwd3ZHZDBZVHhTLVNCQ3BOdHR0N1NkaDNKaFJ3SUlBV1BTUUZqaUdleGprRTJBazg3TnlYeUxpaFZzb3RVZ3pXVDI4Zk9yRGtNdTNTaDBreHBIdFpOdm1aRklpSE1SbXJn?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "23a34183b3c9",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "最容易受到關稅調整影響的國有經濟",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa0J2VkpJWWl6NmlONi0wWThUanBQTWlnd244TC0wakJuX0J3bTVzampDV0JoRnFtSldrT3RycVBMVmpqQzY1cDlmeXVJeW5PcFdXU2wxblZpRENOLXRYODFQb1pFWTMxdGtPdHh4My04ekhhR1NRTzBNTzJwMEtBaGFnRGF3ZktNOFlWb3psVk5rc1U?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "3877a60ad9d9",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "貿易流動中斷與關稅議程假設 - 美國行動論壇",
+      "summary": "貿易流動中斷與關稅議程假設 美國行動論壇",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUU9zcGpDQVpObG5ETzVuZ3k2Z3FkbXhOdUZDZGtJUXlHdGdTMmFCUDNhTGx6amNueHFEdXBoRnVCMmFfLU1DZ2M0MzBKTi16ZVQ1OGxFSFpvdmFhMjFtQm5CQURocUduYW9reGRGTVpUdXRURm56eUVzeFkwNXpVa2JvQW96Zk5YajVXbDVHWUNVYllrWnh6S1JraU9OREE?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "d68981dc407b",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "川普政府對幾乎所有美國進口產品徵收新的 301 關稅 - The National Law Review",
+      "summary": "川普政府對幾乎所有美國進口商品徵收新的 301 關稅 - 知乎",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFhnVFhEWnBfejRkUnFpR0lyWkNMOC1UbWJWWl9jUWVNSUFpS1pHak0wQmF0Z1loaFB3YU4wSHpna3pIemhXYk9LY1ZhRHJ2QjB4RTdmWEpSTmxJc0NjZktnaWJmYVdkWmRSWWZPdjlMbzl2alRvN3VxMUMyQWpONGc4Y3NOS0pBbXJqdGp3RkhOT21kTzBfMndQSmN5RmZBTlVlbHFJRGFUQdIBrwFBVV95cUxNS092NUs1dDB6NkFZNVlHMkNWMGZ5X2hUTDNLY1BJelota2liNEM5SEpUVjJuME1MRElYRWtTN1ZrbHJBY21lQ3RUM25YQk5hY29lejlGampjVWt3YWJnRnJ3WVZZWDBXNUpxay1lU3BOVVlSZk5CZ1BTYUNtajRLUTN4cGdmSG1idHJYWW8ySXJZa0hmRUIweF9QV3pveU1zSFJmVU5PMVlGcGJDSF9Z?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "f3a27b0224bb",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "美國與強迫勞工進口相關的 301 條款關稅可能無法在法庭上生效 - Business Standard",
+      "summary": "美國與強迫勞工進口相關的 301 條款關稅可能無法在法庭上生效 Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd3Fsc1FibWx5MEpMNTh0ZjE0NkM1OXJ0dWZyMnR5RS1NLUhBVTdhRWVZNW9iYi1TS3VzM1NzRWYzMzl6WFBzanE4UWtLVXVHU1JUdC1rVGhqM0RPMFNGOXBKcVZ2c1ZfZXdFa2NicnRlb3Y3Y0U5M0ZWWExWaktxZVc0MUhYd1hDNlpKMEtET0ExZ3FlRXRTZ1pmdk9maUpsZFVacFRYcWZBeXpqZGVOeEJsSzZPWmIzTGJSQTVtZ1l1dHJNSVlwUGtlMkLSAdIBQVVfeXFMTWNLRlRwTmFmUDF4eWlSQUJjZXVZOENwaVVrbUZPUUlZZW9QUGVyd3Atbkp1RllISVhzTzVCU0RYb21zb09SQ2VYbUNzMGhJdzVqUUhuMEYxNENOSEFqOC1IdWMydEpJNlc3RFhaZHpFcUhQWjFzNlc2UGtHMDZ0c1NCaVFaZVU5X09OU05zYUw3b1RKUE1SNzJIZEowRDRadUdLajFpbFAxUGRVOUNzZTRiWkFmUXRkQ2tWTzU5RGh1T1JwOHg2N29rUUtkWXpCV19B?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "8c99c20ba5df",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "進口商就 60 個經濟體徵收強迫勞動關稅提起訴訟 - Freightwaves.com",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04Sm1xZlRyZ1djeVdJS1A2T2FiZzhJd1hZTGRPZlJhclpNZlk0WkFXMnNDVEpJSHR1NnNSaGpGNlNJRGJYQS1EdUVGZE9zN2M2aWJLVkxKaXU4OGNoUlhyRTlqQ0tCWTdpOHRLOUtoS2M?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a4c03b803dd6",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "新關稅生效數小時後，川普提起訴訟，專家稱新關稅可能站不住腳 - CNBC",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9sQTFJbFp1RlFtQXJ5QVBnb3V3dVo3Q3NTNVJZZ1hUM2FrTWNTbDFoTzdwMzU2d201Ny10a3BTUmVOa29qZmN0dkowdGc3MXVQOUViQzdEQ1JKS0xDZEdWX2pIem9BS2I1LTVkNzluVmIwX0RIMXdR0gF8QVVfeXFMTXVoTmFrVWtzWVQ5R1BWZHZBNWttLTdfOXQwUENDVmFzdlV5aG1Qak9NbXNMMTdzSXc0c2ZoRF9XNV9zX0hYUWpkZ1FHb0xtMWx1cC0yR01tTnpjT0xOaTBnZ3ZpVkJCb2dfd1BiMWhjSVVhaXE2b2NORkJHZA?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "228df7c2313b",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "川普的 301 條款關稅如何在法庭上受到挑戰 Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX3ZmSzVuRmtsYjVmWDFDSG5IU25XM25RQkgtUl9GSDZ0b0psR3Vma2w2NzZxLWNEN09JXzJMeG10VnJkZVR4alBGVEZIY254SU1YVTA2Wmw0VnZSWFBYNEhDQjVEOUt6V0V2WURxM1RDaENnRTZxSmd1Sjh6Y1RrYTczekJDTjlvREJBX0RwMzU4VXlOSDkyN2ZjYjlqWDRQNXV6SmQ5RE56VGlnZVdwenVkQnkzdEU?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "9fb4538ea7a6",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "舊關稅到期後新關稅：川普貿易戰最新動態 - 紐約時報中文網",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BLW9tbWk2anRIaEdtTGVXd1Iwbjc4dnVOWkVXWTA1Ml9CMjdnT1VMUnNQVEtGbE5Oam5KaGJDdEI1LUFNeFpVSVI4aXFudlJxbG5majd3aVR1VDlhQ0RKbG5nYXl4YjQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "e44612be52fc",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "川普徵收嚴重有害且非法的 301 關稅 - Reason 雜誌",
+      "summary": "川普徵收嚴重有害且非法的 301 關稅 Reason Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQllvTUR6dnRKZjRMWDRnVGNheUtTWEw2Nl9KaHJ6cE1xQkRVd3NjZUpySnpOWG1pSjJpNnp4SnYxdlZhaWpFWU84OXhZMHc0ZkdOMTJvOFNEZTlZQjByaGY4NjBRdFQtcTRsRFB5LTBlM2dxX1ZYRjRFRjlodXpxWmk2dHZpMkxpRXBNS3R1OFFrRXdXTThUZzE3d0FBX2l6Y2V3?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "20afe63ae8ff",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "白宮「很快」將採取新的貿易行動，以重建全球關稅制度 - CNBC",
+      "summary": "白宮「很快」將採取新的貿易行動，以重建全球關稅制度 CNBC",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LVNjU2hVN29yRTlKczNWanR6MExVeHJXdmllOUxqUVhQQ3VNUnJoMlcwenJrSWxLOWFlNWdnMC1VeDkzVUJxZnNPbVdmNWc4WTNSRmRDNFo0ZG9id21JZkJfb1FqN0NqU0lMRUhENHdjdmVUTk5MQXFZSHFBeG_SAYQBQVVfeXFMUHVHUkhmYTdZWnplcWRUVlZVTlNOUkNmc3Vxa2dGTW8zaWVfR1VmWXJ0bEZBSEhhdlRTeldZelNBNUhJLUwwdURsOVpyc1FvTmR3R3lSNFlveTFLWng0UDY4S1ZhME1xeGpwOGt2QVJuMDc2SUoyZ21kdEl5TVhrRlVyTDdB?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "6b04ba6ad03d",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "川普政府的新 301 關稅幾乎涉及所有美國進口產品 - Ward 和 Smith，P.A.",
+      "summary": "川普政府的新 301 關稅幾乎涉及所有美國進口產品 Ward and Smith, P.A.",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUVBxS3Vzb2FPOXFsa2VWeXh3eFNTTHA0Zjgyeko1MmVaZnpXLWVKbWtQenFQQ3FnVDJ4Y2xoODNhMWlzWXJMQVR4ODJMaFRUdDQycnYwUDNySGdfd3cwWTkyZGREc0J3OTBHdDd4ZVI3NXlOQk85eE80cnBXRkdVR09BTUN2clBCYXJOZUQtRXYyQkZZbmpUTzU1c3BYTVZOWDc5dFp5czc2c0pSRnNwTA?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "2a13a0fddc01",
+      "category": "global",
+      "priority": "high",
+      "source": "Google News",
+      "title": "美國政府根據 301 條款重建全球關稅計劃 - Morgan Lewis",
+      "summary": "美國政府根據 301 條款重建全球關稅計畫 Morgan Lewis",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNERnOE1DM0xxUTBWdHU3am1ZY1dteFNYdGt0d2NmQmUzUlB1OVJiWlJITUY1ZFlLU2c3WGpOTW5ZUnIybHJMaEtvUE9RUUNVQUZsYm1QZFZCcnBWeGZsbFdUMm14TEpqUU43ZDJLYjZvUUZqTG5fSFlUeDd0MW5VcllZNU04ZHlqcHliX0JYZl9IdDdvelowOTFWT3Y2ejkza1NraDJtWGNITTQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "207c6f131f38",
       "category": "global",
       "priority": "medium",
       "source": "Google News",
-      "title": "川普關稅顛覆數十年貿易政策 關稅風暴 歷年來貿易秩序恐洗牌 - 台北時報",
-      "summary": "川普關稅顛覆數十年貿易政策 關稅風暴 歷年來貿易秩序恐洗牌 台北時報",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLQjJFbTM3RlNUS1Nnb0FTVkpuUEVWLXNPU0twc3k4YkRrNTZIMGQtWDRXN1hnVUx4MV9NTGRXZU5jSjJRT0g3cW1fNnVLZlhfWDM1SjE5YVJ5by1qbUdhZWY5RjZ4SkFPSGdjTUFJNEFjRjI5N2J3?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "dc3a52a22fdd",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "海關法規最新資訊 | 與 DHL 物料保持合規 - DHL",
-      "summary": "海關法規最新資訊 | 與 DHL 相關保持合規 DHL",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMHlIZUpDSm90ek1VOEQ3ZzNxcFFXejh3TkZjNDlFVjRxbjQxZmp3MXlCN3ZUWk1GaFNVTkctbTRLUHhsbklDWjViUU81RGUxcDR3a1YzWEN6ZFBSVTJSNFBaaWZFVGR1NmVtQjB4S2FjSVVwUld2U3lLXzRMZE9PVHlmcl81YTNxUTJJdUVtVFNVVndJSmVVLS1qWjQ3QnpZ?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "acde15080920",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "香港海關與國家海關總署舉行高層會面 - 香港海關",
-      "summary": "香港海關與國家海關總署舉行高層會議 香港海關",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUVrR2hfbFZQMk14c2R1cUZxU2dBWWtDdmxXMFZ4MXBYd1IwdWJkTDkxRFRfVkZBTVhIT2dYRHBZdTBOUVBPbTJBVEtTclRGVU9TUmtBM3duSXYwUFNtZmNzdGRabGdUR0p3bnl5ZnFqekJxSmFMWUJnenNYMWV5RTBVOGxraEo0RE1NbDEwNE0weG9aNENn?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "8ecfb2f30f95",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "2026年歐盟取消降價免關稅待遇：寄往歐洲貨件應如何因應？ - DHL",
-      "summary": "2026年歐盟取消低價免關稅待遇：寄往歐洲貨件應如何因應？ &nbsp;&nbsp;DHL",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMjdLY1RIeW45WEoxUGFCRUU4cjZHYS0yOWRsRm85LW5haWNMRE9PTmUxLWpJNURIUldOZGlFdy1EZnJ2SlB1ei1JVXBXRGV4MXJ6RF9qcl80aHVUaXNSR1hzSDFJQ0FRTERXdEVMeERHZGM1TW00UjBSdnk5Nkdzc1lVTmg0RDBSRGh0NnlfT2pOY3pp?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "99660de22aa7",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "廣州海關雙造訪香港海關 - 香港海關",
-      "summary": "廣州海關雙造訪香港海關 香港海關",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmVGeHkxeGF1ZWl5MVpuN0x6bG5pUWZIQ3RvNFRQcXF0aWpuMVhNQlN2Wk4zWUFCek9NXzB0TU5fOTY5U1lFbGNsSWM1ZGNwc2VSeXNlQ1B3RzBpbTdpMF9lR01sV3NzTHFodERCM01pYkt2ZTY5N0RFVHJBSXNqMFgxbFVQalB0cXlaUmFBMF96MGIxTVZN?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "6af8404fff52",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "京東旗下物流子公司京東速運已獲得香港海關AEO認證。 - 富途牛牛",
-      "summary": "京東旗下物流子公司京東速運已獲得香港海關AEO認證。 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT1RvdGpySGpSSFY3QU13REJoOS1MOWdIYmZiUTh6eVVnLS1Bd2ZlcGtzeTd3UktTcEw0Qno4VDJwSnBha2RidERGLWQySXVDaXdXcnV0Y3BoT2Jwby1ZQXRCZ1dlVWRwZjl6M2JNbjVCcnFiTmVvS3dzSWJKOFhLZHRoTzcyQS1hWUpseUFnUDBNRkV6NUNzakRLc1VuYk9sNUk0?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "349508d4e55b",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "走私：拱北海關查獲近80隻活龍蝦 - TDM",
-      "summary": "走私：拱北海關查獲活龍蝦近80隻 TDM",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOVliNi1EZDhoRXE2TXc1dGJkTV83azBUNHZtWG1kX0E1eF9iTWcxZzZZSDQ4eldZSnZMZDhqWDBWM1lod2NBN3NaQVI0X053aWhPRExMNHFxcmx1NjBVajg4SGJDcXdHd1BSSVdGN0pteXE0MFcxTWs4RDNVZTJyandNb0VfcW5jU2lJ?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "a57070a57854",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "中國允許海關官員檢查旅客電子設備中是否存在敏感內容 - ftvnews.com.tw",
-      "summary": "中國允許海關官員檢查旅客電子設備是否包含敏感內容&nbsp;&nbsp;english.ftvnews.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lVnlzZ0hGYkxLM2hCWGZDamgyYmpBUnE1RHoxRlhBdTMzQ0FWS1Y0V1VScllTS01BM3JJWFZVUFhjWXRpZGVyUU1scnlqTjFuVVMzMm0xSlVTWk1Z?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "9d58eb77b23d",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "「清涼家電」火熱出圈廣州海關關區企業冷氣「爆」賣海外 - 香港商報",
-      "summary": "「清涼家電」火熱出圈廣州海關關區企業冷氣「爆」賣海外&nbsp;&nbsp;香港商報",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VOUdMQmVoS1V3M3NCZDlZcWhnMm9lVWY0dEYzTzRpZkhVQTNJTzlWczRDM2hXbm5EMDFWM1hYd1lMX3loNWRubGMyeEhpMTc3WWNDLXRmZmczZ3NXT0E?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "aa6578a88fc8",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "香港海關關長出席粵港海關業務聯繫會議及桂粵港“邊境一鎖”啟動儀式（附圖） - info.gov.hk",
-      "summary": "香港海關關長出席粵港海關業務聯繫會議及桂粵港“邊境一鎖”啟動儀式（附圖）&nbsp;&nbsp;info.gov.hk",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iOWdJVm5QajBxOEszVklPM0t6VEZKTnFlaW5XQ1h4RmxjV3l5YkFacEd3R3ZBcTdVaFBGeTBKUWNaaTFaSTA0bDVaN3k4RFBBYzZMa2dZWldBYVRZb0N5UkZBWWxfWWoyZ18wVGxOODF3dw?oc=5",
-      "time": "2026-07-31",
-      "region": "global",
-      "icon": "🌐",
-      "srcClass": "src-news",
-      "catClass": "cat-news-bg",
-      "tags": [
-        "海关动态"
-      ]
-    },
-    {
-      "id": "181ac3131158",
-      "category": "global",
-      "priority": "low",
-      "source": "Google News",
-      "title": "國安法｜物流商台公司拒運「違法書」到港陸運：自3月台灣訂書每次被海關抽查 - 集誌社",
-      "summary": "國安法｜物流商台公司拒運「違法書」到港陸運：自3月台灣訂書每次被海關抽查 集誌社",
-      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPc1ItUUl2MEYwa2hURk5UckNubFdBdGdTeU1IU2F6czFiMm1WaHFTNDRhVGduODBEWFZ2NF9OUUJEaEZJMjVQbzkzUHNod2ZDaXlPcXRHQnREX1pOM3pZWV83azdBSTA3c1dBQ2FVOGVGWTVxUmhHeE9JMmpWSlA2VXpGZVJTNndnVmRZMEU2ejNPcnUwNXZFdGhzbW91dzhsYXlZTVc2VDhaT2ZHellUWkdBNjk3cmFBZnE1d3pjUW8tQ1dEQnVaLVpmM3RsdE1kZVlKUGpqQWFUVGRDaEo4OVY2UUdHQ1lfU3ByeEd2RW5pcFZ2VzI3cGQ4YmdSOHR6NnpQb0RVNnZkZTk5V0JwbE0xOGJabmJRLVp0UmdLSXh6M1ZoUVFuM3BZOGdMRlZMUjBNZk1SMHNQVk96QWVoSE9IMFc4Ym5hRTkwUA?oc=5",
+      "title": "國際貿易熱門話題 - 2026 年 6 月 - 對 FDA 關於事先通知法規的新提議規則有何評論？ - JD 蘇普拉",
+      "summary": "國際貿易熱門話題 - 2026 年 6 月 - 對 FDA 關於事先通知法規的新提議規則有何評論？ JD 蘇普拉",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd1piYnBGOEtpVGRZNS16dTZaekJOeldJZ1dqaFJ0N2x4TExUVklCQlVDd01tSncwYUJwVnRTUHhDcnZzcW9UNGdQa0NBRVRJMkx2djIycV9fVTlaT3FqSFZDMmt5YjZrRXEyM0REejdpQld6NXJHcGRoa2lVSHQxaGdYY0Z5WEVP?oc=5",
       "time": "2026-07-31",
       "region": "global",
       "icon": "🌐",
@@ -198,8 +470,42 @@
       "priority": "low",
       "source": "Google News",
       "title": "物流商台分部拒運「違法」書毆國安法不運曾受查港書店出貨須交書單海關：不評論 - 20260722 - 港聞 - 明報新聞網",
-      "summary": "物流商台分部拒運「違法」書毆國安法不運曾受查港書店出貨須交書單海關：不評論 - 20260722 - 港聞 明報新聞網",
+      "summary": "物流商台分部拒運「違法」書毆國安法不運曾受查港書店出貨須交書單海關：不評論 - 20260722 - 港聞明新聞網",
       "link": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxPVlV4RWVwclAzRERna1JJeGplM2VUNy0xRUtPNTlDVnBqRTd4aVQ4OW04emozZHZySU05SEItMHdsOGtyNmZJaHBvdGxXN2cwdVN6aE9JTnlCWnNZTjk0R283UUR4eUN2aWRNbGJlOTVfQ2ZOSTNRZE42Z180RUg2ZzdFbDdvTk9GN3A1WERjXzhWN2Jqaks0VlZoZk4zMW9PRkxUQlJuZzU2UGJjTzJYcTFNVEhBSHZETmtUX3d3cUJpYWRhNC1qUmdXLWxZNWhuNFc4RTVBNkhNX2c4TmJkUDZ4R3JhT19lY2xQcFREQ0NhUm5lR1VTOWRVS2hjNGVBQ01fZEVQaWZ1dTI1aS1ZSjVSTFJoRG9YTnpXNVJ1WkY1R0tGSWZvcnNhTE9MSzFYWXRTQWJ5OVAwUE0wbWQtWFY5aklhU3JhS0VhbklzRkhTQUtnZVJJUHBFUTl0MkotNW96Z3pOMWs4RkxISXpselZjbFB0RERUSUNXTVZYd19aZXMtdVpQWF9FSkMtRHRhZXVhOGpiT0NHRFZ2T1ZKRGxZZTA3d3ZfcDllcjNNWWY5ZEhZVy1VMlZlbmJYYUZGaTBvU25ielNmekpoVDVNdFVDUDV3Q2plYzJJdWtkejF3MHk2RGctMElDX25IQlMtaWpVWFpPaUl0djVBZjNWWnpwVGFqUHRUNVZLcWRIUkg4Rzh3TXhkOXdsaGFiTkhCSW1NcHRSbW5ob054UFBNeHJibEFDSk16RGY2RDVUbmpyd1haaV9OT3JDT3FXSU1Pd3c?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "181ac3131158",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "國安法｜物流商台公司拒運「違法書」到港陸運：自3月台灣訂書每次被海關抽查 - 集誌社",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPc1ItUUl2MEYwa2hURk5UckNubFdBdGdTeU1IU2F6czFiMm1WaHFTNDRhVGduODBEWFZ2NF9OUUJEaEZJMjVQbzkzUHNod2ZDaXlPcXRHQnREX1pOM3pZWV83azdBSTA3c1dBQ2FVOGVGWTVxUmhHeE9JMmpWSlA2VXpGZVJTNndnVmRZMEU2ejNPcnUwNXZFdGhzbW91dzhsYXlZTVc2VDhaT2ZHellUWkdBNjk3cmFBZnE1d3pjUW8tQ1dEQnVaLVpmM3RsdE1kZVlKUGpqQWFUVGRDaEo4OVY2UUdHQ1lfU3ByeEd2RW5pcFZ2VzI3cGQ4YmdSOHR6NnpQb0RVNnZkZTk5V0JwbE0xOGJabmJRLVp0UmdLSXh6M1ZoUVFuM3BZOGdMRlZMUjBNZk1SMHNQVk96QWVoSE9IMFc4Ym5hRTkwUA?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "5469eefe246f",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "香港海關舉辦研討會向廈門大學法學及物流學系研學團推廣香港AEO計劃 - 星島頭條",
+      "summary": "香港海關舉辦研討會向廈門大學法學及物流學系研學團推廣香港AEO計劃星島頭條",
+      "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxPZDU5UllGYXd2d3psNngtci05RXVtTkNsajNJTmRnaXJOekdCV25UM2N6cmpsQ1ZJNzgybHBSdkVFeTJBX0IzZDZyUUxNenVZY3J3Q0hlTkJuSUkyN3gxSVRQbldtOFhMWUU2c3BYN1NHc2FMaTRUa2syQ3h3RFRYXzhvU3FJS2pnZ29YU2ZUTlJXZ0xrWGd3dHJadGdLSzBieXhGZ3dZRlg3aUJ3MDA3SWtNdU1Wdll2U20wS3B6VU9RNGx4ZWhoTy12T0s3SnBqM2o3em1HUHJxWHFkZmh3dGFKYXNhaHBKUDU1M2VNU0RxREh1VEJFV2dhWTgtT1pnTWs2YTg4WG03ckNHdVNIWmRqRzZJQmdOQ3M3UHB4SzJOM01MNFg0QmpvREFaYk1LcVE5djRfQTU0NWk2WUpQTmVtNzcxT1B4aW9JU2xXWloxb2JrY2NQM3hlT0NyQ1Z4bUFHZmpiSE4zQWlnUG5ER1FCbUw3b1hsdmt6MG1GcUc0QXdlV0ZraFJCc1RjaWFzUHNrNmJzcXkxWWJDbWFlZ3R2Y1hQMTBLc251TWdMT2Y1VzlSZDJfbnFFNGpuc0FSWXFv?oc=5",
       "time": "2026-07-31",
       "region": "global",
       "icon": "🌐",
@@ -215,7 +521,7 @@
       "priority": "low",
       "source": "Google News",
       "title": "海關總署推智慧口岸建設港珠澳大橋物流快進快出- 大灣區 - 大公文匯網",
-      "summary": "海關總署推智慧口建設港珠澳大橋物流快進快出- 大灣區 大公岸文匯網",
+      "summary": "海關總署推智慧口岸建設港珠澳大橋物流快進快出 - 大灣區大公文匯網",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iOVBPeS1FcFMzeVZFeG5yNFhlNTdrZFdYT29POC1GOFFJeTY4d1F1TWJwWnpSdUJPOERNc0M2bUhQS1pEQS00SVpoelB4V0FNMmNwTXZWNHh5U05Rc3l5WWQ3U2FKN0xNc2FDYmZBbU0?oc=5",
       "time": "2026-07-31",
       "region": "global",
@@ -227,13 +533,13 @@
       ]
     },
     {
-      "id": "f31b09e85b59",
+      "id": "011f8444cd87",
       "category": "global",
       "priority": "low",
       "source": "Google News",
-      "title": "海關檢獲2,300萬美元毒品拘3人 揭開荷蘭抵港貨櫃「K仔」灌裝糖塊藏膠桶 - 香港01",
-      "summary": "海關檢獲2,300萬美元毒品拘3人 揭開荷蘭抵港貨櫃「K仔」灌裝糖塊藏膠桶 &nbsp;&nbsp;香港01",
-      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPQWJjUzlpRGZnWXcwbE15aExadGRlWmlTMGNFMV9YX3M3eGhjTURqQ181cnNSUTB5SDEwT1A5RC1jM1dMVFk4dmRFV3FyekhqNkVkVUl4NmNjSWw3QVpSRUw5NE1OSU1rQzBYWVRPeVM2WjBwSUFYc3l3SW5UZTdNWk1EVGlfRnB3SEhnOVpNZEJqMTJnX2JYcW5hSVlWeVVLZGhIbzhwNzlEMS1qZmpIeDljbTFEOENGOWJlVHRONm9ZeXBCNUh2T1dmMWpEeEljQ2RPc051dmtKelJvc0FjSlRPTTVXQldtU2hJeVQ5b2Z5ZUFkb0M4czVsdUIyNFBFWnh4b2RuRk0zcmpiY0YwdTNfQk40NFpUSkdQcGVFSkR3YWM5bWVEeldSMkM4bmM2bXF3YlAtaUctZHpLN1QxZFFQWEZrb0J3dzluTDUtMG53STZUTUp6RGRpRmxDRnhQUlFqYnBOOThSMVdRY19LX05yWQ?oc=5",
+      "title": "三地海關協會跨境跨境冒牌貨物香港海關檢4.6萬冒牌貨 - 香港電台新聞",
+      "summary": "三地海關協會跨國跨境冒牌貨物 香港海關檢4.6萬冒牌貨 香港電台新聞",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoc2VMTFJPMVZ5N1M2U05pSDdfOGJkNXRjbHRQSkpMMW4ycERKdWZiYXd4eEx4Q19xZlowYUZiTWNNdG41SUJkQ0ZTSk94dV9JbDJRR2VQYWZoS1ZUSmNMX2s5Y3h5cFQ1SXlSMXgwOA?oc=5",
       "time": "2026-07-31",
       "region": "global",
       "icon": "🌐",
@@ -244,13 +550,421 @@
       ]
     },
     {
-      "id": "097aa6b330f8",
+      "id": "618f7d0a15a7",
       "category": "global",
       "priority": "low",
       "source": "Google News",
-      "title": "海關開拓鮮活「綠色通道」助港物流樞紐再升級 - bastillepost.com",
-      "summary": "海關開拓鮮活「綠色通道」助港物流樞紐再升級 Bastillepost.com",
+      "title": "香港海關在粉嶺搞破兩個涉嫌私煙倉庫倉庫（附圖） - info.gov.hk",
+      "summary": "香港海關在粉嶺搞破兩起疑似私煙倉庫倉庫（附圖） info.gov.hk",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ETWRORVBpWDVMTUxjQmY5eGE1eHVkS3VLSThBLUF1Yy1ZMWM4LTdSV2tpVFFfcVY2bzBHVWJkcWNjeDBXanFnaDVrX09rY0otbHB0dlA5emxCUEhkRTJxY1JtMVltWWVuWHpMY0Z4TkZNdw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "d2082420d8f5",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "海關開拓鮮活「綠色通道」助港物流樞紐再升級 - 巴士的報",
+      "summary": "海關開拓鮮活「綠色通道」助港物流樞紐再升級巴士的報",
       "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOUjBFb3RKeERBeWIwNFZteVJOYmxyQlZBV1dnWk10VTlvVUZJQW83cTBxRDVoeWIxYWUwRk1BNDFVTkk4amVxSnQwUFBnUHpqaWZtZndvdFdwWWhOaXRJaUUwTHg4aFVITHZQMU9zYVBpTzJqSm5RTFZEVGZYUUhSdEEtc3Zkc1NRNUYwdmYtZ2hrd3Y5dXdvVTRsZjBFVTlXQ0RFWS1Ga0g2MXBvd01rWm5mSkJVX2JOS09RcVBxb19MUXk1WWJHR1FHa1NHOEVpQS1LOGV1Y0RuYkQtczhEQU5DQ2hhWEFuOG5nYUpranZCak1ERVk4OTBuMk1oYVlVX2NlZml4ajdraXVwNUhadmlBb1BGQTJJUVF4c003djBqaHNhVDFGaXFjUFZyMkpFUXRHNXBCeGUyVm1KclZ3MmZFc096M0g1RktzdXVFY0ZnZzNldlhxNkxGbUFEWEZFcGhJ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "52371849d73e",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "（有片）私煙供應現斷層海關葵湧物流場截2400萬元倉底貨拘男負責人-香港 - 香港文匯報",
+      "summary": "（有片）私煙供應現斷層海關葵湧物流場截2400萬元倉底貨拘男負責人- 香港 香港文匯報",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSUVBfSzh1TnQzcTBlM3NaYWVqeDYwT1Z4emp6VXlUdElFTEk4Nm5WMWNyVUlVYVdvcEhmRVpIWGN6Ul9RcExrRHdWc0VDRTBwLTNTUnNHTkRzUmhvZDFzeUZzQ2RKRnlvcHdKUl9oaGNPT3A5VTdn?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "d530613bc2cf",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "香港海关「钢门」行动狂扫1.56亿冒牌货3万件高仿真假波衫！ - BusinessFocus",
+      "summary": "香港海關「鋼門」行動狂掃1.56億冒牌貨3萬件高模擬假波衫！",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU3FnOEViRFhUcUlmTFV4LU9NM2tnbmVlVVFCWVlHZF83ODJKVW50NHl0MzN1UU5SbXlQSFRvR1kyNzNLRVpUNl9tWFNXcDBOV196dFVTV2R4SlYzWTJ4YzlqR19rS2haYXZBMlFNVDVqZG1uVE9DUFFFbmtDc0ZaNS16bFY2bmxvMkswREYyZWp5VXBGSFBqdTZSRTQ1ZERPX2gwWEo0OWM3dU9IanZ1cGllMGVjLXVkQXVFdjA4Qmc?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "38e8ed8bd9d2",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "香港海關於廣西欽州舉辦「邊境一鎖計畫」業務宣講會暨南寧海關會議會議 - 政務號 - 大公文匯網",
+      "summary": "香港海關於廣西欽州舉辦「邊境一鎖計畫」業務宣講會暨南寧海關會議會議- 政務號 大公文匯網",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mY2R5azlFQmQyN2hvNE12SWNXdDRud21lY0tBMnQtbE9xcGx0dEtKcE5ZRVVKczMybDJLcjJfSlp6cDIyQl9keVloSzd3aU1qUXZXSFdwSFVPakFVVFJoSXBYVm9LNmJpNW5ha01GcW8?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "c67a3993794c",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "陳美寶：港口須加速高拓加值海運服務 - 香港文匯報",
+      "summary": "陳美寶：港口須加速高拓加值海運服務香港文報",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QUnF2RUg1SHdCQ2d0bkk4YVVWT25RMmZOUHF0cTBMVmk5TjVDcHJuNXJ4ZTlFQjRpTHh4Rm9kNFNCNXo4cjdWTjFoTVpjZlduSVAzVmk5cEZSSDE5NTNVSWxaRHBwNHk2V3QtUnRWV0hwRmRPZGprMG5mcTY?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "3b8ab1c25d64",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "貨運燃油附加費加幅最高3倍 貨運不滿「加速減慢」 批成本全數轉嫁物流業累民生 - 星島頭條",
+      "summary": "貨運燃油附加費加幅最高3倍 貨運不滿「加速減慢」 批成本全數轉嫁 物流業累民生 星島頭條",
+      "link": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxOT3A2WUN2OGE1V2t5OEIwTlk1WE92UnVtNUl2aURILXpQcVRBUHhmRHgtY213M3JuZDZkMnlKVG9ZTXZ6S0FWazhCdkZNUXBFUXdUYlc3SVl5YS1MU2lGN01DUHdNMmVZTXhqNVJrSnpRSDd3THFUVmJ2dFByXzI2MGJvdUNQQzFFaGNrVE81YXAwNmMzZGlkVXZzRFJweFFEQ2xSMVpqV3FLTENhOXNsMFVfMDY1YjNKNk5PdGxkM0Qxam94bmpTZ0IxOUdxb2ZmUE83QTZqcGRCR1dUQnBsa09kUUVRZlZUcVFRQzd2LXU4R3phem9xb3BEWU54alFOekFDaDctaHgxcjV1bkpoR1lPczFLVXNIY3ZLbGI0ZG5KY2NhRVhWS3NyTmRnZmh4Qk5YdUtHeG1vOFQ0RWNRRi0tdDRuM0RTdDBqaGIzMzJ1QlJNRC1ESVhldE8zTnpCWVNuNWpDdlpELVcwd0tnWjFIblBLaURoR3RvSUE4SF9uV3MxVFE2TDdPcTdNdmY0MlNVbkhNTERhVk1leGFNbFBKSDRwZ1B3WmNGZGNBYUIzXzQ3REFTT0IzWVI3bTlEeVF5X0gwME9VTXk2ZU9CcHN4dnhqYXJibkpwaHkxeGQxUUNrWGE0U1Boa2kxVmplNXc?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a25e7cc84f43",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "【稅收高企】國泰貨運徵收附加費飆漲300% 物流業協會怒斥：稅務加幅不合理、削減香港貿易 香港經濟日報HKET",
+      "link": "https://news.google.com/rss/articles/CBMizgRBVV95cUxPOEl4b2FZTGRualRmUXpsRWlqdThLSWtiWHUyU3NwV0d6TmZtRWZzVWRVLWRhOXE0ZDUxMDRCVXFGY05xVlpmakVwT0JRQTFNc0wybktiZWI0cG9iZkVkbXZNblFqLUFUZFA3ZTFpUUtDUXhkWGplSXFrcHVSY2pxc09wd3dPVUhBYWpBczhFNGxLbm9xVHl2Vng1elk1WXhlUG5GeE1yZWJTalFwQkRCSVN1SDVzSUppNk1saFZLS1lPZWhlZmJlWlR3VGtobjVxU2JTNlZDM1NCTXZiRnVCS2NOU1VudXRMTkJFRmpTd2dnQ0E4Q1ZDbWExcVZCVzV4Nlk3UGlJNG1MVXZNSHM3YnpRd0ZNMmVnU3FqRjBVNHMyVGVXWjJaWDNCR3VPZW9CR19DV3JmcjF4ZzhUV3dKT3BfSjhzdUl4eTFUdVVhQ3hBTDJoOUJpcGxpRTdySEQxWjBxMzFwbmNTT2x3d0VNYnYtWU51ZnRJeGIwekFpV0RhQl81Y1lXOTlISUFzV01UWXNMaUhwVDVWZUQzX0lESXV2VTVlb1QwZVRCbXFFWV9MYW0xM0NiamcwZlNKVldwWDIzdkVfS0ktZDdXTkYxc3JOQWpWZkNETHJpY2NibDEwc2pyN0hfSVZIMF83Z3NvUzhVckFjTm4zampiMXVYUjNoblhSc2ZSM1MzSW5zUkUxcXlhNXRmeVplWDNSNE5sUml6ZzBpUWR1RWtNZjN4czNmb09NRWY1dmx1Y0RpVHNGbE8yRDVWNEYzcUZLQQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "d7de77fcece1",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "內地禁點對點跨境運輸港業務指運費飆五倍憂慮物流金漆招牌不保 - 香港01",
+      "summary": "內地禁點對點跨境運輸港業務指運費飆五倍憂物流金漆招牌不保香港01",
+      "link": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPWl9YMUhwSlFmVXBuUVJqbWFxcGhXaW9JY2N4VTliN3VUMktucU81bHpad3BRb1hMcFM4OGNiQjNvRDZLcjFlekdjYUNCZUxDQnF4c0tXZVM5Yng4amdCcV9zSEk5ZHduMWhad1NWSF9nUWwtekRneTIzTnNydFd4bXczZTBSZDEtREp2TzZvS0FHSVNOb0FqSjJEdnZaMWdzMkU4M3hvTE1TUmVWYlk5TDVub3gtSXJ5cEZYWVFWVTVLOXRjdndnSUhWcXU1djlYUWgxTzhfejNvS1lvcTRwUy0tZm9jcVlOUWNuLUZESjNwOWs3VHJCUlNKSEVlXzhobnFCNGVGREp6Nms4TTRTRl9qdTFsVW5fb3NOelRETm5DNEp6OVE5eW43NnJGbHI0cktZSng4VnhTVFdONmwtQy1NV18zVnNqODlMeHRhRGZqdlp0NFZRVVU1aFVEM2tXRXN6ZXVqWlF6VjQtY3p2VENJZ0hCY3JKX0NZTDR1NUpTUTdZbWdwdVRGYmttZENVZFBsZW1pcV9ka0ZQenI2NGJuZENWS1BDaGJXc2JYU0hGN29jME9FWlprVGo5bF8tV3Zad2tn?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "6c201cdf7553",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "打造「智慧卡口」實現「無感通關」花都海關助力花貨加速出海 - 香港商報",
+      "summary": "打造「智慧卡口」實現「無感通關」花都海關助力花貨加速出海香港商報",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6M0p5TzZiWUNZQ2hfRmJwYkdqcTlHU0ZUTklaZ1VSLVBPa1luOHpFMXMwUXRIQWxoNExydTZpTXJDUjVpWHlOZzNXYWxjc3I3aVZEZGw0MTl5c3V1aW9WLXRNcHZvNHV1dnl0NnF5SEl2dTQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "f85d0fd118ce",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "國際物流企業看好大灣區跨境電商前景 - 香港商報",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5NzFhcGxZV0JvWmloUHpzSTBrRHBfenNmcW05dEhUNS0tazBLMGhMVUYzMjlieGV3RU1QbjRDeHFITlRXaF9kSG9ocXZzNzdyUzNPa1VpOVd0bUFrbGdaMnhHRm13RmRiUVo0VFA4bC1zVTlGenc?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "b03ad160b855",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "香港海關 - 邊境一鎖計劃 - Customs.gov.hk",
+      "summary": "香港海關- 邊境一鎖計劃 Customs.gov.hk",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KT1lJSl9PNVg5aTNPUTFtZlZqUWFWdzU0dmFpZ2tSVTZHdFdRX1NkV3pEQkx3R3ZsNW5UUmdRRldCck5UaHRWSzFIZ3psTFZuSkpHeVR3SEQ0X3VwOEtmUkpVb0NTOUhrZ2doQmZnMTk5Q256aWx1ZTdfM1k?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "e8dd82775ea7",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "AI物流熱尚未結束 中菲行看到下文三大動能民報",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPSk9mZGQ2VmVTRzJ2TGRRMTJnR2FCeXQxbG5BZDFQdWtQdTA3R2ZnX3JSck1pMkJGMF9nWWl5d1otTzNCSTFHUkFhUEtkY2tiWnpPUUxZUHhYN29NM3NBVEJhWHY?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "d834bf82b10e",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "AI從購物入口打到物流互聯「供應鏈效率」成電商新戰場 - 自由財經",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93UWs2WFpydXV1bF9ZWmxUelAzYkxFMS1QOUdDOGRNcGdwSUlHaXJJV1loZXdQWHJGNDlaNkwtN0R3WC1hQWFpaWpBWWRBa3o1ajRmQTV5aktSajRJZ0ZF0gFkQVVfeXFMTzA5V1pqdW5SbU8yYnVzUk1Fbmg4eEQ4VkszVDl6dnVRYnh4d0lCVGV2ckZ3dHZnMnBIZ2tMZTVJM2JHTndLcHg3cV9TTXpUeFNFa202TkQtQ1NTOUNQYVMzRnhlaw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "2f42d2b42df2",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "日本大手筆2.5兆日圓 支架關鍵物資供應鏈佈局 - n.yam.com",
+      "summary": "日本大手筆2.5兆日圓 支架關鍵物資供應鏈佈局 n.yam.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JLTljVTMzSy10UzhmN1pkMHNVS3oyNEVHNHlqcE1KSVU1ZWhjSEZza2stNlB1ZHN0Wm1nMmNxTEI5STVpRGJGbVRjc242VFZReVE?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "eca597ee62ed",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "智慧以太與消防安全升級研討會產官研強化物流安全轉型邁向國際標準新里程 - 中央社CNA",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5INFF6MV9YRUREUVBmcVdaLTJjMUNpSC1iVFA1YVB4VFVhMk5RWm55VGdnWi02elZFMTF0cVZOS1R0V1NBNGFldU1ibmpoSXlZOE55NzR0T01rUQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "f8454d964f3f",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "節能缺工挑戰推進智慧物流冷鏈管理CTIMES",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeS1SbzdfQ0laV1FUT2hLc2dMeTkza29IU0xjQWRiZWx6dUJfQUcxS1JyWjBMOXNISjBMS0s0ZldOMEM0UzRsb1EtQnA0a0ZZUm9xWEo0bDh3X3hxRVo4c0Y5alBYTDZnUlN2dWZvam5WZ2FMWjJueVh0Slp4eDF5MWFNNlpCZFFJalFzcFBWZkVmRHpsZ2ZQRTBIZmVac3VyUzZTQk1vUWIteHlfZVhjQzFPbG5tTG1RSEh6c2h3TW5hLXc?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "c693dd8f7b23",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "供應鏈重組推升東協物流需求昱台聚焦越南、馬來西亞與對接佈局 - ETtoday財經雲",
+      "summary": "供應鏈重組推升東協物流需求昱台聚焦越南、馬來西亞與對接佈局 ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xWEIwbFlaeW9yWW9ObkNjaGlvYmQxLTN4SGFFUm01MEdxTGxxQlBndHBsRGZqVHFDcjlmeFdDU0JObjh4eU44QVBDTVFhcy1WdWfSAVBBVV95cUxNVWc3NWlmRUdxRlNVM1FLN0tac1dpR2ttVm1hRWtWU3FIQmNrTHhDXzMyZEFZOEh2Wk1BQUxZdlRrN1VwWXM5SlVCaWFzcmlzRw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "8c2725815607",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "酷澎在台第四座物流中心啟用，「火箭速配」頭部全台約七成 - TechNews 科技新報",
+      "summary": "酷澎在台第四座物流中心啟用，「火箭速配」頭部全台約七成 TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR19OVV9aSlZtcU5LU3dZSlVpVzFaNDdhb0t0RV9KcTd3TE85U0Rfd1FWOG9QZ1FGWlVYR0k5V0huUGlfMnlJU0hXMmhvYi05U0pRNVMzX21Md1F3M3VHMzFKT0d6ZGtncS1IY013dk1BRi1KUWtlYjFvaVBBcFNKSWFGN25ISndGT0JlNTFxU2l2aG8?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "625691c0f3fc",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "【IT觀點】地緣政治風險成新常態跨境電商必備5大供應鏈策略 - ezone.hk",
+      "summary": "【IT觀點】地緣政治風險成新常態跨境電商必備5大供應鏈策略 ezone.hk",
+      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOeXJkUmNjRFh4RnFGX3BaV3hRTS1lVmEtQkNBbU1YTVZqSlJCTmh4S2hwUnZHeWNYMEk3a0tCTWFkbjU2Wjk3YlhwTWt1azlJUkJENDJ2STFSMmxsU1FtbUlBeTBXQVNfaWN0NUN6eGc0MjZnRW9ZMy1UZDVTdGpmVm1PM2M5dXFEQ1lSR2VwTmIwREVLRDdkX2F6WHNQd19qLXJRX0FQSXUzRk9BQzZOQVlnMktpMi1tMWN3MFBHQnFLaDFMTXNMN2NiNlItRHVCSFBUaVNyVXBxMVdHS0gyTS1STDNqcWVmcS1ESnplNTFPdGdQUHBpeW9IUHdGdV9vTGJMUFNZb2M1S19TX28xQjVadC1TOHNTMTkyNmgxU3AxNVVacEExTUhLRTg0SzREM1lYUnJzYjFrTmE1VFpOdlgyWExOYjBSWHlmRUtjbGdwTGRadU8xSXF5czZoeVRveml2YThqWEZFckRZY2U4QjdUdw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "689120cdc1c8",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Globavend上半財年成長8%，跨國電商物流業務寬度作者 Investing.com - Investing.com 香港 - 股市報價&財經新聞",
+      "summary": "Globavend上半財年成長8%，跨國電商物流業務寬度作者 Investing.com Investing.com 香港 - 股市報價&財經新聞",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83dTlPLUhmQ1FKWHdjQ3FXRl95czcyYkswTVRMdFQ2dnk2OFdob3VnUEtZYlFWWHU4U0RudTlxVmxhMURRRjdOajhOWHRVbW9iNnBRUTMwalBqUG45REIwWm1pbWJPa29MclZicVNic3A?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a394d1da2c8c",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "海關總署：邊境電商等新業態已成為外貿支撐 - 觀點網",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UOU56Wm0yMVd6VDVHMHZNV3ZOSG44WS1SYUo1SzZCQVkyUDhWcjVTaFdBc2hpQ2R5ODc3VnRFQ0pPQlg2c2FoMHpIVXZMN2VpdTFvWnJ5cjdVdFRqcjNnYkl3?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a8195733f81c",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "跨境電商低價競爭加劇 MIC：AI與物流成為台灣電商關鍵 - 大紀元",
+      "summary": "跨境電商低價競爭加劇 MIC：AI與物流成台灣電商關鍵大紀元",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtSVgydk02Y09GNjFHRi1QYXpNaVNTTXlrajBfWlg2alJiVjJJXzRvUDB5M1lPYlB1ODYwVk5OTW5ZNmRXeU5RMmtVV2daaDFONG5kTmJvLWN4cWgtbUZvN9IBZkFVX3lxTE15YzN3SmhMNHhPYkpSMUgtSXlUR3duRkpOX1dhTlM3eHA5bVBYb2xnUW9qWnAyQWFaTHNQeVBESGRXbXQ0NG5DaTAzZERiWnNRdVIySUdPa0VveWUyendhdTlEOWIwdw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "b0731aeca88e",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "金門電商人才訓練8月場聚焦資料分析×金門物流整合×危機公關 - 勁報",
+      "summary": "金門電商人才訓練8月場聚焦資料分析×金門物流整合×危機公關 勁報",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82NTFqZDFSWVJ1V09YQ01WSHZONGVRdTMxRHQwSHMwVHpSNDhuaU1WRDdiS0NzNUtzblMzM2FobEE2UGZONEVLT1dQMXF6dU5lZTVKc1BiT1BXRFZJbDhrQw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "ba93d9cd0638",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "逆向物流：電商高退貨時代的營運關鍵 - 香港經濟日報HKET",
+      "summary": "逆向物流：電商高退貨時代的營運關鍵 香港經濟日報HKET",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNZkhBQnllcnJiODE5aFo5cVpRWTVaWG5XTFlmdFhuYnRXdndVenFKWDZlUnptMmNoVHZxbEdldXQzdXBmaWRzN0ZTNFk4N29sTVc0RXlRa3hRZlhEbS1xLUEtUzQyOWNoX0p6REZ6WGJ2dURaeEFWdV85U1RXalVhbEI4NHA0VFpOVFU3ZHFqU3RQeldKNHpGUFZQWnU2NlhCWi1UVTVqaWgtRXFYMlVJaENuSlNTZkl4czc5QkNkUVQ2TW5jUGFvV1p2RUExSU5HZVdWRTQycmltaV9UMWdzbWVscmkyajloT3ZwUWFsbGFOaEJhSVU1RUhQVWdCTVAyZHNhM3VQbGZJRlgzdEFxdHNEZ1dhLXF4VE5YaA?oc=5",
       "time": "2026-07-31",
       "region": "global",
       "icon": "🌐",
@@ -266,7 +980,7 @@
       "priority": "low",
       "source": "Google News",
       "title": "商務部、海關總署：暫停稀土等出口管制公告的實施 - 香港01",
-      "summary": "商務部、海關總署：暫停稀土等稅務管制公告的實施 &nbsp;&nbsp;香港01",
+      "summary": "商務部、海關總署：暫停稀土等出口管制公告的實施 香港01",
       "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPamx5SUFJRU51T1dwNk9qS201NWVNTHp0SEdhOUUtVFdIWkJrYzNOMHBQZHhBd0otenpGQnk1Ulh0OGt4cXNWVkpWVzFfc3c4eVBBUWFXSTZUb2tmNEJ4QmQ0YmlLNHZDb1U1Q3BaRGI3ZzBNMEdUbW1aTE5hbFFFRHhVdloxUVg3YWtFWmRCaEdIN1ZCOFEtb3FWaFQtVFpldUhVdDdIYkpJcl9vZm9oMkIyR1ZNUUZCbkU5ck5xYUpHbm9fZGtRQzhqNnVOcEV6WUtITll2WjNfdnpmZ1k1ZHdYcFpKNi1aa2RhTDF0b0d0cTdTcDVLTDVTaW1XYzktUXFsQ19PWldtc25aR0Q4SkJ5STNhYTkzaXM5VXVkRllwRUhMZ192RkxBZktLQzczeVBtS2d0YUJDODA3amxqZDEtbm5HaGlHQ0p3bnN6NjhuczV1cEIxSGVSeFVST0VzejZqOWNrRXp0bVE4Y3M2R1ZsN3dCN1N5ZGxaNEFjVXpZWkI0T1VXR0RLOTc?oc=5",
       "time": "2026-07-31",
       "region": "global",
@@ -283,7 +997,7 @@
       "priority": "low",
       "source": "Google News",
       "title": "中國商務部、海關總署連發4公告涉及超硬材料、稀土、鋰電池等出口管制 - RFI",
-      "summary": "中國商務部、海關總署連發4公告涉及超硬材料、稀土、鋰電池等出口管制 RFI",
+      "summary": "中國商務部、海關總署連發4公告涉及超硬材料、稀土、鋰電池等出口管制RFI",
       "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxNZWRycmQ5bmw2R2VkZWVkNWFVRU95TXpPRFlBTjhNVG92dGktbXNyMDF0eGlPRWx4dTJiRzZwZG5uTDlxU0pxWVdQaGNQX0RidldWdXZYWXNIV3NXYmNTdlI0djY5bWdEUWRDUG5XWEhieHNzTGJxcVBURmVVdGdIdkxpQWhwczdYQ0JqeDJnZnlCbFpSWWZRR2E3c0ZYSVo1Y0hJUExHMi1rcFRhMUt3c1RtZ2RxeFNPblVKZU9nV2h3cnVSTXpNNzRkaE0tbzhPZm9wMEFpcU5fT3N3VTJHQjFwZXFZQldfVTRRY0NHODc0NFIzUzk4ZjhVNzhBZWFHYkRqMU40ekhXUC1QUUVXR1JaZDZtMlhMR2hldjBIYmxxR1dUSFN0ZXY3ZG1JVEZ1cjJLN3oyeV9KLUduZG82TlRiZmN4c2gwNDd1dmwxOXNKUE1SRml6bjVjLTJPWGRfY1lZbUtXTnlzRmFRRC1HLVFFa1llMnFORkRmU0w0bTFjRXhiS3ZWYUlCUkkxVTVndzNCUUxvX0JwbmdVNmJjOVJFLWlLMkJKZjZxblpkQ2VFbVZNOFE?oc=5",
       "time": "2026-07-31",
       "region": "global",
@@ -295,18 +1009,358 @@
       ]
     },
     {
-      "id": "f7c8cd6c9b7e",
-      "category": "hongkong",
+      "id": "9012581c77be",
+      "category": "global",
       "priority": "low",
-      "source": "香港海關 新聞公報",
-      "title": "éæ¸йæµ·éèè¸¸ YESæ°çææèªªªå¤ªéåïª¸",
-      "summary": "éæ¸йæµ·éèè¸¸ YESæ°çææèªªªå¤ªéåïª¸",
-      "link": "https://www.customs.gov.hk/tc/customs-announcement/press-release/index_id_5473.html",
+      "source": "Google News",
+      "title": "中國海關法規變更：個人自供物資申報指揮調整說明 - DHL",
+      "summary": "中國海關法規變更：個人自供物資申報指揮調整說明 DHL",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdHExLWh1Q09HZy1jczhqWWVEX1hSTTl4a1N0Rm5say1iZVg5QWdqOUZ3SWR2UW1aQjlsQU1xN0lkSVNTWS1ZY25yRFo1NmtuVnE1cEgyek90WUFJSjBEMTBVTC12MnNndC1tcUtyamI3SG9DMHFKT3hOQV9JUTRmVkVLSkJJbnhVQWpUU2hWalB1eWs?oc=5",
       "time": "2026-07-31",
-      "region": "hongkong",
-      "icon": "🇭🇰",
-      "srcClass": "src-hk",
-      "catClass": "cat-hk-bg",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "d7893bdcfe9c",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "合規即對抗：美國2026貿易新框架下台商供應鏈重組的策略佈局 - seftb.org",
+      "summary": "合規即對抗：美國2026貿易新框架下台商供應鏈重組的策略佈局 seftb.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54bkVPeVBkOGlybDlUSzVWSXppUnBWMzllYjRlMDYxM1g0alFxUWVEbTVwd2c4RUl1c0lJUERVeGY0aFV4OVRGUUdIWWdNWUZfSHRjcmJpVQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "14c0850532a7",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "川普的貿易戰造成經濟“海市蜃樓”，GDP預測與貨運市場脫節：航運專家CNBC",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3R0RXFmcDZBUlBFVVN3aFpuLTZMc3BCTUpZWW8yVFpyLTlTVjZZUUhvS2hfS0l6aWRLTDFtWGRiZnB2cS11QlJzLXU1akdDZEgtSTB4bG5WUUNRUllWWmhRMmNhZFpRSUlWUVpuUi1PM21YZkNUYlVYY0piUFBISVYwdXZZSTFLMGhoY3kwUXBqWVZfZ0xURnJGZExwb2hLTkxJLVlTUVM5Wlc30gGyAUFVX3lxTE83R1psdTE1QnVCYm9qT1lMaE81aFlLUFlvN1JENkg0VG5zSEYwRlEtcWh6aVJJeldnSVN0eWVQZWdWWmhNMHhFRVN3eDBKZVZxblppd0NhaFhoajZ4Y2VxTHlUZ0k1YlpQbnNzRVZodWQ4T3ZFcW80QlBaejlpdFlsbUpGTjZvNTgycElXdmZKVHl1N3ktR3cxQ3pXaGJrNERDVzFiY0owUFBUb0cwekF1N1E?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "31df9c64e68f",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "美國和中國即將開啟貿易戰的下一個戰線 - Politico",
+      "summary": "美國和中國即將開啟貿易戰的下一個戰線 Politico",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWWhrUHB0U2cxQlNuQ0E1SXFRSXpxa3M5aWZoRTZjMXZMaXdJOHFsb2Y2Rlh1aEhhMENHdWdIRXZoM1hRTFByOHpCdFpUWGdqb21XTXpYV1NONmJ3OVUzX2Z5Mld1VTlCTlJicE1FN3FBUEtVQkRwQ0prOC1za2JxaTlB?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "1c4eead5d0d5",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "分析師稱，飛行員罷工後安特衛普港口擁堵導致石油交付中斷 - 路透中文網",
+      "summary": "分析師稱，飛行員罷工後，安特衛普港口擁堵，導致石油交付中斷 路透",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRFFPd2paUE40NHhFOTE5aTlnSmJXT3ZXY1owX3Myd3lMazJGY3h5dTkzeHBEbl9rOGNMMDRBNDR1amswQW9nNEtXSHNqMzhYbGV2OW1rbnVIQm1LWGI5MUhObG9jVmx3RFFvNm9JWG9QT3h1aElLQVBza3RzRFhIZUlCUHJZMC1NdENhcllxeUZiQXYxcXpmeHVZZ2tIeUhydkpiTVhIbzBFeC02dm1NRTV5NTkybUp0LVZ5bGxpb29iNTVmeHpINjVaNmQtZnE5NUtsNzNzaEJ5RmZVUlFIUDBiNzRfSk5hSzdEUGwyWXNfTlU?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "84f19ebd6410",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "來自世界各地的港口營運更新（2026 年 5 月 27 日至 6 月 3 日） - Kuehne+Nagel",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1RhNVZFR1djUnhxT19TRlJadHI4R1VGOXpFaThHUVZqLWJqWVYxbWNhek5BWi1vQzYxSWlQdVE3NHozamdNUnFoTlJ3SUtDa1VoME9OcC1uRU5zWHJYTTdlTnkxdXMtQm9vdGQ3bVF6Qk84Y1VlVE8xNTVWNTd0dzctYUpuY0xIRGtr?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "ced54da23a04",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "來自世界各地的港口營運更新（2026 年 3 月 6 日至 13 日） - DredgeWire",
+      "summary": "來自世界各地的港口營運更新（2026 年 3 月 6 日至 13 日） DredgeWire",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORms3XzAxUno1cmdwVDV2UWpaX1JFZElDWlgwdTVNcGlYZjFMYk9fc205eGpfOUhkQ1B2ZjFZVDFva3JXOFd4RnlBQlQ0dWxSeTF6bzVHYU9UdGxHSGNzTkNNWUxjRmRwMDg5VGZsQmp3WWNGQUI4Z3lJekNmLVJxbWFKOGtwS3Z3OThrVFo3OA?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "09d4f500db36",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "罷工重新引發北歐主要港口的擁擠 - 勞合社",
+      "summary": "罷工重新引發北歐主要港口的擁擠 Lloyd's List",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONG02SU5idVF3dUVGMnJyVjdzUGVwUmN6c1FEeGEzYlUwYTlZd2NWYlRIY0d5NjJOeW5MVC1IVkdoUGl6UW5NVjQtdmZQMThON2N6cEdfN1Bjc084V1VrY0tlS29UWEtkRGVGcTAyYlRDNG1iSk5QRThoYVdaXzNzSWZCbnFpaDlwdnl2NDVGbTRxSzk1clZz?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "cb686b828a39",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "歐洲兩大港口航運擁堵加劇 - Bloomberg.com",
+      "summary": "歐洲兩大港口航運擁擠加劇 Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVVdTYmVaVk1YVUphVmpONlhOREJ4NzVtV284N2VDWDhoejlTLS1iLV9VSDh2TktkQ0Y2a3ZPeHZRMHBhVFh0OXpDNVJsUW9XenFRQUFza2kybzF0RnB1enoyOTJFSVM3T2dRUmpoUUlOMElMcmM2WDdLQWZTTWZRN0VlMDI4NkVWVzdZVldkTURmZ2NaWUV2VUNZOTVab3dhRURzaV83eUNFU3N2V2xXZm9IbHJkZw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "0f6f62adc32e",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "來自世界各地的港口營運更新（17... - Kuehne+Nagel",
+      "summary": "來自世界各地的港口營運更新（17...Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BS1lTSkp1ek1FV0ZFdFJpTlpES2tENlA1MC1KQkpabWQtem8zT0FjUkJUVWtxM3JMdVJqbFV2dHl1QWtXODhTSTUzY09NVGVKeEVEd281TFpqNkwyRWpzdG1OYWxBa2JwWWJSSldnbld1bW1PTGZVbS1SODRlZw?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "915c9370a0e9",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "來自世界各地的港口營運更新（20... - Kuehne+Nagel",
+      "summary": "來自世界各地的港口營運更新（20...Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbmNBZDRpRlcwNjFhMjRlTkJLSlZIc0FCQ1hXNmFSYW1pZDY2dDVFSkFqY1RJRkhnaUI0dzRMMlRNb2lLN3kzNkZaaXVLV180VS1pVU83Sm5YNzJxbHg1Q2VTS3ZxNUZIWnVfR0QwVVFYdGRuTXY1RlJUajZYWnc3VVJGR0VUdy13Q0FZ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "e573ef80eabf",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "來自世界各地的港口營運更新（7 ... - Kuehne+Nagel",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53VzloU2hrYTU1RDdVYkFOdGNBYTE0Y0NhZDdFVEFXdS1Rb1FSbDREeGNIcjlTMGd3TjZyRGZzbi10OC1UTFpEM0RMdEFkei1RY2tnanR5cmRaaWJGUlp6TFU0eGY4NnhfNmN0Yll5WlR6Qjh3Z0JLMTFleVBMQQ?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "072b7e97b1d0",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "來自世界各地的港口營運更新（16...Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaVZndjQ4X2s3NEZRQjNYMEJDNHJqT3lzVHpXUFFXUDhITXFncVM0NU9oQklOVURDVjBFUWkycXpZb1Q0STgtYm1hMXh2a0hCSVQxZmRoS2tzcU5jMVVwM1g1T1F5TXNRQkFNRkphVmNNdkR6bFpUSUhLNUxKWXZiUW1RSDdMbmpSNm1j?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "7bde22d3ca89",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "全球港口營運最新動態（2026 年 2 月 13 日至 19 日） - Kuehne+Nagel",
+      "summary": "來自世界各地的港口營運更新（2026 年 2 月 13 日至 19 日）Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUXdjVzlFUnZrN1RNRXl6OUhaNW84eXZZUDBVeUpsU3Q0NFp6QmpLYmw5eEZRbEdSZVpqbHhVMlNoUWc3Y0Q5MHdDMkhicXd3ekVMT2dSTXNTNkFDcjJLUUNaNHYtb0J0SUtOR21tUW5ZZWlheEtlaUtfcTBaeHlvX1NrTHpVdW5KZldz?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a387dee2a5c9",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "隨著航空燃油價格的上漲，航空貨運公司提高了附加費 - 商業雜誌",
+      "summary": "隨著航空燃油價格的上漲，航空貨運公司提高了附加費",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM1NDME13VDIwWUVZdXZzNFdvRkdNT2FsS2dWR1oxSkZBWEh2ZzJSd3VIUHlIZUE1bzY5NmpkemM3a2VOcUZMTFAzbnoxRjJVcU5pVWMwWGxjdlpna3NYRGtpNlhSWmFDTVVuSjhDclV3Sm1FanlvRDVYVVhtcXctN01TdmkzNm1wanRWeTgtS2RUT1dnMmlGNWxpeWNGaEIt?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "c8921c8e3f9e",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "TAC 指數：全球空運價格連續第五週下跌 - STAT Times",
+      "summary": "全球空運價格連續第五週下跌：TAC 指數 STAT Times",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM0RrTGN6QTFTRUpxZFpyVWJmdVVBWUhzQmxZQmtLa0tISFh3eFp2b19zM1MzQU1SeUdCY3d3bFdWcFJUc0VGMkllYjMteWFlNU9MQlJWZGJaWWk4ZUFSNnpwa3JDbndxS1JHU19hR05QYXVqVE9EOUJiSXNZakI3bmNZZEs0NlFiQzJzQ0NuUUk4TGthbkJNbk93SHB2a1d4U1NkWkVTSkRha2dtNjQzRNIBsAFBVV95cUxNM0RrTGN6QTFTRUpxZFpyVWJmdVVBWUhzQmxZQmtLa0tISFh3eFp2b19zM1MzQU1SeUdCY3d3bFdWcFJUc0VGMkllYjMteWFlNU9MQlJWZGJaWWk4ZUFSNnpwa3JDbndxS1JHU19hR05QYXVqVE9EOUJiSXNZakI3bmNZZEs0NlFiQzJzQ0NuUUk4TGthbkJNbk93SHB2a1d4U1NkWkVTSkRha2dtNjQzRA?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "1d1815fae96a",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "人工智慧流量提振航空貨運市場，需求仍超過運力 - The Loadstar",
+      "summary": "人工智慧流量提振航空貨運市場，需求仍超過運能 The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXRCajkwNXpiYW1CVWRfVWtuOE52cFlaV0dPNFVKRDNIcmxBQzVSaWFudEVGb29ibWxWTFZ1UERacDg1ZDY5dmdNUGxKSm0yMUZjNWVWU1RhS3RvbFdCcXBCcVJOdXhGUTAzbW5PN1M5a2NVUGdNNHA4MU9JQjZZZU1Zb0hoLTBtVzc5MEd5SkFtRjhTbkpyNS0yR0I?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "dd435ae9926d",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "法國航空-荷航貨運節拍顯示人工智慧硬體填補了空運電子商務的空白 - 科技時報",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZVpMc2c0UnpKa0Y2cl9ubnFjUzBnNFZFX2tyOHNmS0RuR3lGRlhHQTIzRVNhN2V2ek5pR1A0dlRlb2hYLXVwaXRVbXlJNVFaRFN4OUtUQWlUVFFuN2ptTmE5R1Z3VTAweFFZLUxXTVhneWZ3UTV2aTlpaTZ4OFBySG9VcXRwUjRxZkowZnRwUVVnM1NmQmpVSXhtRzJ4RVo5QUUtLThEQXZFN29ObHZBenM1cFc4MVFNa3ZodVpUeHZfa3N0V2kyTGV3Wl9EeGM?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "6e1fe93fb118",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "CMA CGM 報告第二季表現強勁，運費上漲提升利潤 - 全球貿易雜誌",
+      "summary": "達飛輪船 (CMA CGM) 報告第二季表現強勁，運費上漲提升利潤 全球貿易雜誌",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT1JkTUJwZHRaTV8yRWJ4bENGRkM3c3luXzhuY05MNm5FUVY2NTBRR1JmTlF5MVhQQm5MSFd6RG1qdkdpZVFPWHRsZEVXS1NnMTBnRHJCWHpvVl95dzNKblNJRG5SMlREbk1VZWJVX013V0Z1WC1rZUN4VkRfSkRBX3owSk1QX2ZsLWlCTXNzU0hvS25XVW5oMUFn?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "9276c50f0e06",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "2026年全球領先運輸集團財務全景 - Upply",
+      "summary": "2026年全球領先運輸集團財務全景 Upply",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOHktR1EtZTczVlgxdVBaOHJ6OEFfa0Eyd2k4X3lPR293RzQ0SWl3R2lCNWlRbGJQSWtHSVBEemRLRVhsQmxHV1k3eC13Rks5TFBLMUZqQ1l5bUZXNDBlY3NMM1VWejB6ajR2OWI3dXZWbHZVRlU4WEZUNTN0OGJGLThHMHl3eHhGZUpVUVJ6MEJvZ29KM05UQ1NJVG1Kb1A50gGwAUFVX3lxTE0xWWZuUVBqalZaWkQ0VUdDVzh5TDItOW1NTEcyWTZzMmlLQjM2Y005d3RuS1FpRnBjUW9hM1l4T2MwZldiYkd0c3Q3QWpkenlSRkhsUVpDODJMTFEtWVNhaFdYRkNUNW5HR1NLSVhHeUJKNk5Qc0xTSWowVF9vNFBXNmRISHdGOHFqcmpObUZmZWpSbm80MnB5bFd1dVQzY2dHbkZRVGt0eVZYeUZocHdF?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
+      "tags": [
+        "海关动态"
+      ]
+    },
+    {
+      "id": "a0543a471f3a",
+      "category": "global",
+      "priority": "low",
+      "source": "Google News",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "中東動盪導致運費上漲，達飛輪船 (CMA CGM) 公佈第二季度獲利強勁 gCaptain",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa3dTZ0NRMGZ5cFFPUWVTOENGVXk3OXN5UXM4OHJOeWtqOUlDb3BrS3NUdkRSOFAyd09fTndBQTV5ZUJTSHJZYVhkdllGWVdGbTlWUkdLSHB5b3R4ckk3VlUxY2hjaE5senVobmUzVE1La3hROXlJeFZjUzJzQ2xzSXhKNXNodUljb3F6Szh6RUVzQjd6X0FRaDdUX0dvVUxjMHRycA?oc=5",
+      "time": "2026-07-31",
+      "region": "global",
+      "icon": "🌐",
+      "srcClass": "src-news",
+      "catClass": "cat-news-bg",
       "tags": [
         "海关动态"
       ]
