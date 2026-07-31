@@ -12,7 +12,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
-
+import html as html_lib
 try:
     import feedparser
 except ImportError:
@@ -35,13 +35,35 @@ except ImportError:
     GoogleTranslator = None
 
 
-GOOGLE_NEWS_QUERIES = [
-    "Hong Kong logistics customs",
-    "港口 物流 海关",
-    "shipping tariff trade policy",
+# 中文物流關鍵詞（配大中華視角地區）
+CN_TOPICS = [
+    "香港 物流 海關",
+    "海運 港口 動態",
+    "空運 貨運 燃油附加費",
+    "陸運 跨境貨車 通關",
+    "倉儲 供應鏈 政策",
+    "跨境電商 物流",
     "中國 海關 公告",
+    "關稅 貿易政策",
 ]
 
+# 英文物流關鍵詞（配國際英文視角地區）
+EN_TOPICS = [
+    "shipping tariff trade policy",
+    "port congestion strike",
+    "air cargo freight rates",
+    "supply chain disruption",
+    "section 301 tariff",
+    "customs trade regulation",
+]
+
+REGION_ZH = {"hl": "zh-TW", "gl": "HK", "ceid": "HK:zh-Hant"}
+REGION_EN = {"hl": "en-US", "gl": "US", "ceid": "US:en"}
+
+GOOGLE_NEWS_QUERIES = (
+    [{"q": t, **REGION_ZH} for t in CN_TOPICS] +
+    [{"q": t, **REGION_EN} for t in EN_TOPICS]
+)
 
 SOURCE_CONFIG = [
     {
@@ -79,9 +101,8 @@ SOURCE_CONFIG = [
         "src_class": "src-china",
         "cat_class": "cat-china-bg",
         "item_pattern": r'<a[^>]+href="([^"]+)"[^>]*title="([^"]+)"',
-    },
+    }
 ]
-
 
 KEYWORDS = [
     "shipping", "logistics", "port", "customs", "tariff", "trade",
@@ -95,7 +116,10 @@ CACHE = {}
 
 
 def clean_html(text: str) -> str:
-    return re.sub(r"<[^>]+>", "", text or "").strip()
+    text = re.sub(r"<[^>]+>", "", text or "")
+    text = html_lib.unescape(text)       
+    text = text.replace("\u3000", " ") 
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def to_absolute_url(base_url: str, href: str) -> str:
@@ -126,7 +150,7 @@ def is_relevant(text: str) -> bool:
 
 def priority(text: str) -> str:
     t = text.lower()
-    if any(k in t for k in ["sanction", "制裁", "禁令"]):
+    if any(k in t for k in ["sanction", "制裁", "禁令","关税","tariff","關稅"]):
         return "high"
     if any(k in t for k in ["policy", "regulation", "政策"]):
         return "medium"
@@ -168,11 +192,14 @@ def fetch_google_news():
         "cat_class": "cat-news-bg",
     }
 
-    for q in GOOGLE_NEWS_QUERIES:
-        url = f"https://news.google.com/rss/search?q={quote_plus(q)}&hl=zh-TW&gl=HK&ceid=HK:zh-Hant"
+    for cfg in GOOGLE_NEWS_QUERIES:
+        url = (
+            f"https://news.google.com/rss/search?q={quote_plus(cfg['q'])}"
+            f"&hl={cfg['hl']}&gl={cfg['gl']}&ceid={cfg['ceid']}"
+        )
         feed = feedparser.parse(url)
 
-        for e in feed.entries[:8]:
+        for e in feed.entries[:10]:
             title = clean_html(getattr(e, "title", ""))
             summary = clean_html(getattr(e, "summary", ""))
 
@@ -185,16 +212,18 @@ def fetch_google_news():
 def fetch_html(src):
     items = []
     try:
-        r = requests.get(src["url"], timeout=15)
+        r = requests.get(
+            src["url"], timeout=15,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        )
+        r.encoding = r.apparent_encoding
         matches = re.findall(src["item_pattern"], r.text, re.DOTALL)
 
         for m in matches[:40]:
             href, title = m[0], clean_html(m[1])
             if not title:
                 continue
-
             link = to_absolute_url(src["url"], href)
-
             if is_relevant(title):
                 items.append(build_item(src, title, title, link))
 
