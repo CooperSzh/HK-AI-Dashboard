@@ -1,137 +1,275 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Logistics Dashboard</title>
-  <style>
-    :root{--bg:#f6f5f1;--card:#fff;--text:#1c1f24;--muted:#65717e;--line:#dde1e6;--accent:#147d75;--warn:#b87318;--high:#bf2f2f}
-    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
-    header,main,.stats{max-width:1180px;margin:auto;padding:24px}
-    header{padding-top:38px;border-bottom:1px solid var(--line)}
-    .eyebrow{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.08em;text-transform:uppercase}
-    h1{margin:8px 0 10px;font-size:clamp(32px,5vw,54px);line-height:1.05}
-    .sub{margin:0;color:var(--muted);line-height:1.6}
-    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
-    .stat,.article,.empty{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}
-    .label{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
-    .value{font-size:34px;font-weight:900;margin-top:6px}
-    .bar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
-    .filters{display:flex;gap:8px;flex-wrap:wrap}
-    button{border:1px solid var(--line);background:var(--card);border-radius:6px;padding:9px 13px;font-weight:800;color:var(--muted);cursor:pointer}
-    button.active{background:var(--text);border-color:var(--text);color:#fff}
-    .updated{font-size:13px;color:var(--muted)}
-    .list{display:grid;gap:14px}
-    .article{display:block;text-decoration:none;color:inherit;border-left:4px solid var(--accent)}
-    .article.high{border-left-color:var(--high)} .article.medium{border-left-color:var(--warn)}
-    .meta{font-size:12px;font-weight:800;color:var(--muted);margin-bottom:8px}
-    h2{font-size:20px;line-height:1.35;margin:0 0 8px}
-    p{margin:0;color:var(--muted);line-height:1.6}
-    @media(max-width:640px){header,main,.stats{padding-left:16px;padding-right:16px}.filters,button{width:100%}.bar{align-items:stretch}}
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>香港物流情报看板</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Noto+Sans+HK:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#eef5fb;
+    --card:#ffffff;
+    --ink:#171b1f;
+    --muted:#66707a;
+    --line:#e1ddd0;
+    --accent:#0f6e64;
+    --accent-soft:#e4f0ee;
+    --warn:#b9791c;
+    --warn-soft:#faf0dd;
+    --high:#bd3a24;
+    --high-soft:#fbe9e4;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Noto Sans HK','Segoe UI',sans-serif;
+  }
+  .mono{font-family:'JetBrains Mono',monospace}
+  header,main{max-width:1180px;margin:auto;padding:0 24px}
+
+  /* ---- Title bar ---- */
+  .title-bar{
+    width:100%;
+    background:#24578a;
+    padding:14px 24px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(15,40,70,.25);
+  }
+  .title-bar h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    margin:0;
+    font-size:clamp(18px,2.4vw,24px);
+    line-height:1.1;
+    letter-spacing:-.01em;
+    color:#ffffff;
+  }
+
+  /* ---- Header ---- */
+  header{padding-top:26px;padding-bottom:22px;border-bottom:1px solid var(--line);text-align:center}
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;font-weight:600;color:var(--accent);
+    letter-spacing:.12em;text-transform:uppercase;
+    display:flex;align-items:center;justify-content:center;gap:8px;
+  }
+  .eyebrow::before{content:"";width:8px;height:8px;background:var(--accent);border-radius:50%;display:inline-block;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    margin:10px 0 12px;
+    font-size:clamp(30px,4.6vw,48px);
+    line-height:1.05;
+    letter-spacing:-.01em;
+  }
+  .sub{margin:0;color:var(--muted);line-height:1.7;font-size:15px;max-width:640px}
+
+  /* ---- Stat strip ---- */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;margin-top:26px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card);box-shadow:0 1px 4px rgba(20,40,60,.08)}
+  .stat{padding:16px 20px;border-right:1px solid var(--line)}
+  .stat:last-child{border-right:none}
+  .stat .label{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+  .stat .value{font-family:'Space Grotesk',sans-serif;font-size:30px;font-weight:700;margin-top:4px}
+
+  /* ---- Filter bar ---- */
+  .bar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:28px 0 18px}
+  .filters{display:flex;gap:8px;flex-wrap:wrap}
+  button{
+    border:1px solid var(--line);background:var(--card);border-radius:999px;
+    padding:8px 16px;font-weight:700;font-size:13px;color:var(--muted);cursor:pointer;
+    transition:.15s ease;
+    box-shadow:0 1px 3px rgba(20,40,60,.08);
+  }
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.active{background:var(--ink);border-color:var(--ink);color:#fff}
+  .updated{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted)}
+
+  /* ---- Article cards ---- */
+  .list{display:grid;gap:16px;padding-bottom:60px}
+  .article{
+    display:grid;grid-template-columns:132px 1fr;
+    background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+    box-shadow:0 1px 4px rgba(20,40,60,.08);
+  }
+  .rail{
+    padding:18px 16px;border-right:1px dashed var(--line);
+    display:flex;flex-direction:column;gap:10px;background:#f2f6f9;
+  }
+  .index{
+    width:26px;height:26px;border-radius:50%;
+    background:var(--ink);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;
+  }
+  .stamp{
+    font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;
+    letter-spacing:.06em;text-transform:uppercase;
+    border:1.5px solid currentColor;border-radius:4px;
+    padding:3px 7px;text-align:center;transform:rotate(-2deg);width:fit-content;
+  }
+  .article.high .stamp{color:var(--high)}
+  .article.medium .stamp{color:var(--warn)}
+  .article.low .stamp{color:var(--accent)}
+  .rail .cat{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+  .rail .time{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin-top:auto}
+
+  .body{padding:18px 22px}
+  .meta{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:6px;letter-spacing:.02em}
+  h2{font-family:'Space Grotesk',sans-serif;font-size:19px;line-height:1.35;margin:0 0 12px;font-weight:700}
+  a.article{text-decoration:none;color:inherit}
+
+  .ai-block{border-radius:8px;padding:10px 14px;margin-top:8px;font-size:13.5px;line-height:1.65}
+  .ai-block .tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:4px}
+  .summary{background:#f2f4f5;color:var(--ink)}
+  .summary .tag{color:#5c6672}
+  .analysis{background:var(--accent-soft);color:#0d423d}
+  .analysis .tag{color:var(--accent)}
+
+  .empty{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:40px;text-align:center;color:var(--muted)}
+
+  @media(max-width:680px){
+    header,main{padding-left:16px;padding-right:16px}
+    .article{grid-template-columns:1fr}
+    .rail{flex-direction:row;border-right:none;border-bottom:1px dashed var(--line);align-items:center}
+    .rail .time{margin-top:0;margin-left:auto}
+    .filters{width:100%}
+  }
+</style>
 </head>
 <body>
-  <header>
-    <div class="eyebrow">Live Customs & Logistics Intelligence</div>
-    <h1>AI Logistics Dashboard</h1>
-    <p class="sub">追蹤香港、中國及全球物流、海關、航運與貿易政策動態。</p>
-  </header>
 
-  <section class="stats">
-    <div class="stat"><div class="label">總動態</div><div class="value" id="total">--</div></div>
-    <div class="stat"><div class="label">近30天</div><div class="value" id="fresh">--</div></div>
-    <div class="stat"><div class="label">資料源</div><div class="value" id="sources">--</div></div>
-  </section>
+<div class="title-bar">
+  <h1>香港物流情报看板</h1>
+</div>
 
-  <main>
-    <div class="bar">
-      <div class="filters" id="filters">
-        <button class="active" data-filter="all">全部</button>
-        <button data-filter="global">全球</button>
-        <button data-filter="hongkong">香港</button>
-        <button data-filter="china">中國</button>
-      </div>
-      <div class="updated" id="updated">正在載入...</div>
+<header>
+  <div class="stats">
+    <div class="stat"><div class="label">今日新增</div><div class="value" id="statToday">--</div></div>
+    <div class="stat"><div class="label">高風險事件</div><div class="value" id="statHigh">--</div></div>
+    <div class="stat"><div class="label">近30天</div><div class="value" id="statFresh">--</div></div>
+    <div class="stat"><div class="label">資料源</div><div class="value" id="statSources">--</div></div>
+  </div>
+</header>
+
+<main>
+  <div class="bar">
+    <div class="filters" id="filters">
+      <button class="active" data-filter="all">全部</button>
+      <button data-filter="global">全球</button>
+      <button data-filter="hongkong">香港</button>
+      <button data-filter="china">中國</button>
     </div>
-    <div id="content" class="empty">正在讀取 data/news.json...</div>
-  </main>
+    <div class="updated" id="updated">正在載入...</div>
+  </div>
 
-  <script>
-    const FRESH_DAYS = 30;
-    let data = null;
-    let filter = "all";
+  <div id="content" class="empty">正在讀取 data/news.json...</div>
+</main>
 
-    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[c]));
+<script>
+  const FRESH_DAYS = 30;
+  let data = null;
+  let items = [];
+  let filter = "all";
 
-    function ageDays(v) {
-      if (!v) return Infinity;
-      const t = String(v).trim();
-      if (t.includes("剛剛") || t.includes("刚刚") || t.includes("近期")) return 0;
-      const h = t.match(/(\d+)\s*(小時|小时|h)/i);
-      if (h) return Number(h[1]) / 24;
-      const d = t.match(/(\d+)\s*天/);
-      if (d) return Number(d[1]);
-      const date = new Date(t);
-      return Number.isNaN(date.getTime()) ? Infinity : Math.max(0, (Date.now() - date.getTime()) / 86400000);
+  const CAT_LABEL = { global:"全球", hongkong:"香港", china:"中國" };
+  const PRIORITY_LABEL = { high:"高風險", medium:"中度關注", low:"常規追蹤" };
+
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
+
+  function ageDays(v) {
+    if (!v) return Infinity;
+    const t = String(v).trim();
+    if (t.includes("剛剛") || t.includes("刚刚") || t.includes("近期")) return 0;
+    const h = t.match(/(\d+)\s*(小時|小时|h)/i);
+    if (h) return Number(h[1]) / 24;
+    const d = t.match(/(\d+)\s*天/);
+    if (d) return Number(d[1]);
+    const date = new Date(t);
+    return Number.isNaN(date.getTime()) ? Infinity : Math.max(0, (Date.now() - date.getTime()) / 86400000);
+  }
+
+  function fmt(v) {
+    const d = new Date(v);
+    if (Number.isNaN(d.getTime())) return v || "unknown";
+    return d.toLocaleString("zh-HK", { year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" });
+  }
+
+  function render() {
+    const content = document.getElementById("content");
+    const fresh = items.filter(i => ageDays(i.time) <= FRESH_DAYS);
+    const visible = (filter === "all" ? fresh : fresh.filter(i => i.category === filter))
+      .sort((a, b) => ageDays(a.time) - ageDays(b.time));
+
+    document.getElementById("statToday").textContent = fresh.filter(i => ageDays(i.time) < 1).length;
+    document.getElementById("statHigh").textContent = fresh.filter(i => i.priority === "high").length;
+    document.getElementById("statFresh").textContent = fresh.length;
+    document.getElementById("statSources").textContent = data?.stats?.sources_count ?? "--";
+
+    if (!visible.length) {
+      content.className = "empty";
+      content.textContent = "暫時沒有符合條件的近30天動態。";
+      return;
     }
 
-    function fmt(v) {
-      const d = new Date(v);
-      if (Number.isNaN(d.getTime())) return v || "unknown";
-      return d.toLocaleString("zh-HK", { year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" });
-    }
-
-    function render() {
-      const items = Array.isArray(data?.items) ? data.items : [];
-      const fresh = items.filter(i => ageDays(i.time) <= FRESH_DAYS);
-      const visible = (filter === "all" ? fresh : fresh.filter(i => i.category === filter))
-        .sort((a, b) => ageDays(a.time) - ageDays(b.time));
-
-      document.getElementById("total").textContent = items.length;
-      document.getElementById("fresh").textContent = fresh.length;
-      document.getElementById("sources").textContent = data?.stats?.sources_count ?? "--";
-      document.getElementById("updated").textContent = "更新時間：" + fmt(data?.generated_at);
-
-      const content = document.getElementById("content");
-      if (!visible.length) {
-        content.className = "empty";
-        content.textContent = "暫時沒有符合條件的近30天動態。";
-        return;
-      }
-
-      content.className = "list";
-      content.innerHTML = visible.map(i => `
-        <a class="article ${esc(i.priority || "low")}" href="${esc(i.link || "#")}" target="_blank" rel="noopener noreferrer">
-          <div class="meta">${esc(i.icon || "")} ${esc(i.source || "Unknown")} · ${esc(i.time || "")} · ${esc(i.priority || "low")}</div>
-          <h2>${esc(i.title || "Untitled")}</h2>
-          <p>${esc(i.summary || "")}</p>
+    content.className = "list";
+    content.innerHTML = visible.map((i, idx) => {
+      const priority = i.priority || "low";
+      const extraTags = Array.isArray(i.tags) ? i.tags.join(" · ") : "";
+      return `
+        <a class="article ${esc(priority)}" href="${esc(i.link || "#")}" target="_blank" rel="noopener noreferrer">
+          <div class="rail">
+            <div class="index">${idx + 1}</div>
+            <div class="stamp">${PRIORITY_LABEL[priority] || esc(priority)}</div>
+            <div class="cat">${CAT_LABEL[i.category] || esc(i.category || "")}</div>
+            <div class="time">${esc(i.time || "")}</div>
+          </div>
+          <div class="body">
+            <div class="meta">${esc(i.icon || "")} ${esc(i.source || "Unknown")}${extraTags ? " · " + esc(extraTags) : ""}</div>
+            <h2>${esc(i.title || "Untitled")}</h2>
+            <div class="ai-block summary">
+              <span class="tag">AI 摘要</span>${esc(i.summary || "")}
+            </div>
+            ${i.analysis ? `
+            <div class="ai-block analysis">
+              <span class="tag">AI 分析</span>${esc(i.analysis)}
+            </div>` : ""}
+          </div>
         </a>
-      `).join("");
-    }
+      `;
+    }).join("");
+  }
 
-    document.getElementById("filters").addEventListener("click", e => {
-      const btn = e.target.closest("button[data-filter]");
-      if (!btn) return;
-      filter = btn.dataset.filter;
-      document.querySelectorAll("#filters button").forEach(b => b.classList.toggle("active", b === btn));
+  document.getElementById("filters").addEventListener("click", e => {
+    const btn = e.target.closest("button[data-filter]");
+    if (!btn) return;
+    filter = btn.dataset.filter;
+    document.querySelectorAll("#filters button").forEach(b => b.classList.toggle("active", b === btn));
+    render();
+  });
+
+  fetch("data/news.json")
+    .then(r => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(json => {
+      data = json;
+      items = Array.isArray(json?.items) ? json.items : [];
+      document.getElementById("updated").textContent = "更新時間：" + fmt(json?.generated_at);
       render();
+    })
+    .catch(err => {
+      document.getElementById("updated").textContent = "資料載入失敗";
+      const content = document.getElementById("content");
+      content.className = "empty";
+      content.textContent = "無法讀取 data/news.json：" + err.message;
     });
-
-    fetch("data/news.json")
-      .then(r => {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      })
-      .then(json => {
-        data = json;
-        render();
-      })
-      .catch(err => {
-        document.getElementById("updated").textContent = "資料載入失敗";
-        document.getElementById("content").textContent = "無法讀取 data/news.json：" + err.message;
-      });
-  </script>
+</script>
 </body>
 </html>
